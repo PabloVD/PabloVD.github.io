@@ -5,7 +5,7 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "ReadMe.md", "Rakefile", "changelog.md", "License.md"]
 highlighter: rouge
 
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
 title: Pablo Villanueva Domingo' webpage
 name: Pablo Villanueva Domingo
 tagline: Welcome to my homepage

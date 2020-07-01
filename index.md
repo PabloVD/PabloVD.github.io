@@ -8,6 +8,12 @@ description: Index of Pablo Villanueva Domingo's homepage
 
 # Welcome to my page
 
-This is Pablo Villanueva Domingo's homepage. I'm a PhD student on Cosmology at IFIC/UV, Val\`encia, Spain.
+![](Garbi.jpg)
 
-Take a look [here](pages/articles.html) at my scientific articles.
+This is Pablo Villanueva Domingo's homepage. I'm a PhD student on Cosmology at IFIC/UV, Valencia, Spain. 
+
+-[Articles](pages/articles.html)
+Take a look at my scientific articles.
+
+-[Codes](pages/codes.html) 
+Here are some of my codes.

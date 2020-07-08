@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Articles
+title: Publications
 description: Scientific articles of Pablo Villanueva Domingo
 ---
 

@@ -10,12 +10,10 @@ description: Index of Pablo Villanueva Domingo's homepage
 
 This is Pablo Villanueva Domingo's homepage. I'm a PhD student on Cosmology at IFIC/UV, Valencia, Spain. 
 
-![](Garbi.jpg)
+![](assets/Garbi.jpg)
 
-- [Articles](pages/articles.html)
+- [Curriculum Vitae](assets/cv.pdf)
 
-Take a look at my scientific articles.
+- [Publications](pages/publications.html)
 
 - [Codes](pages/codes.html)
-
-Here are some of my codes.

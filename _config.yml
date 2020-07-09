@@ -6,7 +6,7 @@ exclude: [".rvmrc", ".rbenv-version", "ReadMe.md", "Rakefile"]
 highlighter: rouge
 
 #theme: jekyll-theme-slate
-title: Pablo Villanueva Domingo' webpage
+title: Pablo Villanueva Domingo's webpage
 name: Pablo Villanueva Domingo
 tagline: Welcome to my homepage
 description: PhD student on Cosmology

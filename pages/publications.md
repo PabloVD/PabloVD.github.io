@@ -1,10 +1,10 @@
 ---
-layout: page
 title: Publications
 description: Scientific articles of Pablo Villanueva Domingo
 ---
 
-These are my scientific publications:
+These are my scientific publications.
+You can also take a look at my articles in my [INSPIRE-HEP page](https://inspirehep.net/authors/1615007?ui-citation-summary=true).
 
 
 + Pablo Villanueva-Domingo and Francisco Villaescusa-Navarro.
@@ -65,9 +65,6 @@ These are my scientific publications:
 
 + Laura Lopez-Honorez, Olga Mena, Sergio Palomares-Ruiz and Pablo Villanueva-Domingo.
 
-	*Warm dark matter and the ionization history of the Universe.*}
+	*Warm dark matter and the ionization history of the Universe.*
 
 	[Phys. Rev., D96(10):103539, 2017.](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.103539)
-
-
-You can also take a look at my articles in my [INSPIRE-HEP page](https://inspirehep.net/authors/1615007?ui-citation-summary=true).

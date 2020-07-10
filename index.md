@@ -1,25 +1,24 @@
 ---
-layout: page
-title: Pablo Villanueva Domingo's homepage
+layout: home
+#title: Pablo Villanueva Domingo's homepage
 #tagline: Index of Pablo Villanueva Domingo's homepage
 description: Index of Pablo Villanueva Domingo's homepage
 ---
 
 
+
 # Welcome!
 
-This is Pablo Villanueva Domingo's homepage. I'm a PhD student on Cosmology at IFIC/UV, Valencia, Spain. 
+<img src="assets/Garbi.png" align="right" style="max-width:40%"/>
 
-Contact: [pablo.villanueva.domingo@gmail.com](pablo.villanueva.domingo@gmail.com)
+This is the Pablo Villanueva Domingo's homepage.
 
-![](assets/githublogo.png) [https://github.com/PabloVD](https://github.com/PabloVD)
+I'm a PhD student at IFIC/UV, Valencia, Spain, working on cosmology and machine learning.
 
-Linkedin: ?
+You can take a look here at my:
 
-![](assets/Garbi.jpg)
+- [**Curriculum Vitae**](assets/main.pdf)
 
-- [Curriculum Vitae](assets/cv.pdf)
+- [**Publications**](pages/publications.html)
 
-- [Publications](pages/publications.html)
-
-- [Codes](pages/codes.html)
+- [**Codes**](pages/codes.html)

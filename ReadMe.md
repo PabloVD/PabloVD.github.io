@@ -1,3 +1,0 @@
-# Webpage of Pablo Villanueva Domingo
-
-In construction...

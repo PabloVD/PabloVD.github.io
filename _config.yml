@@ -1,0 +1,46 @@
+# Site settings
+title: Pablo Villanueva Domingo
+description: 'PhD candidate on Cosmology and Machine Learning at IFIC/UV, Valencia (Spain)'
+url: ''
+baseurl: ''
+profilepic: '/images/profilepic.png'
+bkimage: '/images/gaussiannoise.png'
+#google_analytics: UA-XXXXXX-X
+#font_awesome: 'XXXXXXXXXX.js''
+
+author:
+  name: 'Pablo Villanueva Domingo'
+  email: pablo.villanueva.domingo@gmail.com
+#  twitter_username: thomzuehlke
+#  facebook_username: joshgerdes
+  github_username:  PabloVD
+  linkedin_username:  pablo-villanueva-domingo-76b6491b2
+#  meetup_name: Azure-Meetup-Rostock-MV
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'screenshot-overview.png']

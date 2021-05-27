@@ -1,0 +1,46 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+
+- name: 21cmDeepLearning
+  gh_user: PabloVD
+  repo: 21cmDeepLearning
+  img: ../images/gaussiannoise.png
+  desc: Convolutional Neural Network to extract the underlying matter density field from a 21 cm map, employing the U-Net architecture in Pytorch. More details in the paper [2006.14305](https://arxiv.org/abs/2006.14305), [ApJ 907 44, 2021](https://iopscience.iop.org/article/10.3847/1538-4357/abd245).
+
+- name: DCGAN
+  gh_user: PabloVD
+  repo: ImageGAN
+  img: ../images/flowers.png
+  desc: Implementation of a DCGAN in Tensorflow for generating pictures.
+
+- name: GraphNNCenterOfMass
+  gh_user: PabloVD
+  repo: GraphNNCenterOfMass
+  img: ../images/GraphImage.png
+  desc: Compute the center of mass of a particle system using several models of Graph Neural Networks with Pytorch Geometric.
+
+- name: 21cmBounds
+  gh_user: PabloVD
+  repo: 21cmBounds
+  img: ../images/21cmBounds.png
+  desc: Python script to plot the current observational upper limits on the cosmological 21 cm power spectrum.
+
+- name: 21cmForest_PBH
+  gh_user: PabloVD
+  repo: 21cmForest_PBH
+  img: ../images/21cmForestPBH.png
+  desc: Python code to predict the number of absorption features in the 21 cm forest within primordial black holes scenarios. More details in the paper [2104.10695](https://arxiv.org/abs/2104.10695).
+
+- name: 21cmSolver
+  gh_user: PabloVD
+  repo: 21cmSolver
+  img: ../images/21cmsolverimg.png
+  desc: Python code to predict the thermal evolution of the universe and to compute the 21 cm global signal, taking into account the overdensities. More details in the paper [1912.09488](https://arxiv.org/abs/1912.09488), [Phys. Rev. D 101, 083502](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.101.083502).
+
+- name: BAOlets
+  gh_user: PabloVD
+  repo: BAOlets
+  img: ../images/baolets.png
+  desc: Fortran code to identify Baryonic Acoustic Oscillations in galaxy surveys via wavelets.

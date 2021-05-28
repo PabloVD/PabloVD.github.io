@@ -15,7 +15,7 @@ You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.n
 
 - Pablo Villanueva-Domingo, Olga Mena and Sergio Palomares-Ruiz.\
 	**A brief review on primordial black holes as dark matter.**\
-	[arXiv:2103.12087](https://arxiv.org/abs/2103.12087) (accepted in Frontiers - Astronomy and Space Sciences)
+	[Front. Astron. Space Sci., 28 May 2021](https://doi.org/10.3389/fspas.2021.681084), [arXiv:2103.12087](https://arxiv.org/abs/2103.12087)
 
 
 - Pablo Villanueva-Domingo and Francisco Villaescusa-Navarro.\

@@ -9,8 +9,6 @@ Hi! I'm Pablo, a PhD student on physics at the University of València and Insti
 
 I have given talks at the universities of Princeton, Tokyo and Brussels.
 
-*Under construction.*
-
 See here my [Curriculum Vitae](/cv.pdf){:target="_blank"}.
 
 <img src="/images/Garbi.png" style="max-width:50%"/>

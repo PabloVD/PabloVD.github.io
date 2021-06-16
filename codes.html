@@ -10,16 +10,22 @@ permalink: /codes/
 
 <h1> Codes </h1>
 
-These are some of the codes and scripts I have developed for machine learning and cosmology applications.
+These are some of the codes and scripts I have developed during my work and research.
 
-<h2> Research codes </h2>
+<br>
+
+<h2> Deep Learning in Cosmology </h2>
+
+Projects applying deep learning techniques to cosmology.
+
+<br>
 
 <br />
 <br />
 
   <ul class="timeline">
 
-    {% for project in site.data.codes %}
+    {% for project in site.data.dlcosmo %}
 
       <li class="timeline-inverted">
         <div class="timeline-image">
@@ -50,7 +56,101 @@ These are some of the codes and scripts I have developed for machine learning an
     </li> -->
   </ul>
 
+<br>
+
+<h2> Learning Machine Learning </h2>
+
+Some simple codes and tutorials to learn different machine learning aspects and provide fun applications.
+
+<br>
+
+<br />
+<br />
+
+  <ul class="timeline">
+
+    {% for project in site.data.ml %}
+
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
+          </div>
+          <div class="timeline-body">
+            {{ project.desc | markdownify }}
+            <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+                <!--
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers">
+              <div style="height: 10px;"></div>
+              -->
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    <!--
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+      </div>
+    </li> -->
+  </ul>
+
+<br>
+
+<h2> Cosmology </h2>
+
+Codes developed for my research in cosmology.
+
+<br>
+
+<br />
+<br />
+
+  <ul class="timeline">
+
+    {% for project in site.data.cosmo %}
+
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
+          </div>
+          <div class="timeline-body">
+            {{ project.desc | markdownify }}
+            <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+                <!--
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers">
+              <div style="height: 10px;"></div>
+              -->
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    <!--
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+      </div>
+    </li> -->
+  </ul>
+
+<br>
+
 <h2> Miscelanea </h2>
+
+Some projects I made for learning programing and for fun.
+
+<br>
 
 <br />
 <br />

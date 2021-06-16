@@ -2,11 +2,6 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
-- name: PoemGenerator
-  gh_user: PabloVD
-  repo: PoemGenerator
-  img: ../images/lope.png
-  desc: Train a recurrent neural network (LSTM) to generate poems imitating the style of an author.
 
 - name: WaveEq
   gh_user: PabloVD
@@ -18,10 +13,10 @@
   gh_user: PabloVD
   repo: MapGenerator
   img: ../images/map.png
-  desc: Generate random geographical maps from gaussian fields, Perlin noise or other techniques.
+  desc: Generate random geographical maps of archipielagos from gaussian fields, Perlin noise or other techniques.
 
 - name: GameOfLife
   gh_user: PabloVD
   repo: GameOfLife
   img: ../images/GameOfLife.png
-  desc: Implementation of Conway's Game of Life using python and pygame.
+  desc: Implementation of Conway's Game of Life using Python and Pygame.

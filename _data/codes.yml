@@ -9,6 +9,12 @@
   img: ../images/gaussiannoise.png
   desc: Convolutional Neural Network to extract the underlying matter density field from a 21 cm map, employing the U-Net architecture in Pytorch. More details in the paper [2006.14305](https://arxiv.org/abs/2006.14305), [ApJ 907 44, 2021](https://iopscience.iop.org/article/10.3847/1538-4357/abd245).
 
+- name: HaloGraphNet
+  gh_user: PabloVD
+  repo: HaloGraphNet
+  img: ../images/visualize_graph.png
+  desc: Graph Neural Networks to predict the mass of a dark matter halo from its galaxies in hydrodynamic simulations (in development).
+
 - name: DCGAN
   gh_user: PabloVD
   repo: ImageGAN

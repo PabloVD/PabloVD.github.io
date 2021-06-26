@@ -3,17 +3,23 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
 
-- name: WaveEq
-  gh_user: PabloVD
-  repo: WaveEq
-  img: ../images/waveq.png
-  desc: Script for solving the wave equation numerically in Fortran.
-
 - name: MapGenerator
   gh_user: PabloVD
   repo: MapGenerator
   img: ../images/map.png
   desc: Generate random geographical maps of archipielagos from gaussian fields, Perlin noise or other techniques.
+
+- name: MetroidPy
+  gh_user: PabloVD
+  repo: MetroidPy
+  img: ../images/Metroid_mini.png
+  desc: Simple videogame based on the classic Metroid programmed in Python and Pygame.
+
+- name: WaveEq
+  gh_user: PabloVD
+  repo: WaveEq
+  img: ../images/waveq.png
+  desc: Script for solving the wave equation numerically in Fortran.
 
 - name: GameOfLife
   gh_user: PabloVD

@@ -24,13 +24,13 @@ You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.n
 
 
 - Laura Lopez-Honorez, Olga Mena, Sergio Palomares-Ruiz, Pablo Villanueva-Domingo and Samuel J. Witte.\
-	**Variations in fundamental constants at the cosmic dawn**\
+	**Variations in fundamental constants at the cosmic dawn.**\
 	[JCAP, 2006(06):026, 2020](https://iopscience.iop.org/article/10.1088/1475-7516/2020/06/026), [arXiv:2004.00013](https://arxiv.org/abs/2004.00013)
 
 
 - Pablo Villanueva-Domingo, Olga Mena and Jordi Miralda-Escude.\
 	**Maximum amplitude of the high-redshift 21-cm absorption feature.**\
-	[Phys. Rev. D101(8):083502, 2020](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.100.043540), [arXiv:1912.09488](https://arxiv.org/abs/1912.09488)
+	[Phys. Rev. D101(8):083502, 2020](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.101.083502), [arXiv:1912.09488](https://arxiv.org/abs/1912.09488)
 
 
 - Olga Mena, Sergio Palomares-Ruiz, Pablo Villanueva-Domingo, and Samuel J. Witte.\

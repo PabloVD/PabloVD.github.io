@@ -1,5 +1,6 @@
 $(document).ready(function () {
   $('a.blog-button').click(function (e) {
+    window.location.replace = "/bio"
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {

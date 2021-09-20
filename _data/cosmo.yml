@@ -22,6 +22,12 @@
   img: ../images/21cmsolverimg.png
   desc: Python code to predict the thermal evolution of the universe and the 21 cm global signal, taking into account the overdensities. More details in the paper [1912.09488](https://arxiv.org/abs/1912.09488), [Phys. Rev. D 101, 083502](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.101.083502).
 
+- name: Fisher21WDM
+  gh_user: PabloVD
+  repo: Fisher21WDM
+  img: ../images/Fisher_image.png
+  desc: Compute the Fisher matrix from simulations of the 21 cm power spectrum in warm dark matter cosmologies.
+
 - name: BAOlets
   gh_user: PabloVD
   repo: BAOlets

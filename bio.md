@@ -9,7 +9,7 @@ Hi! I'm Pablo, currently a research assistant at the University of València and
 
 Moreover, I have applied **deep learning** techniques to cosmology, such as **convolutional neural networks** and **graph neural networks**. I have experience with mathematical modeling, data analysis and programming. After completing my PhD, I'm now interested in **data science** and machine learning applied to industry.
 
-I have led several projects with international collaborators, written **12 scientific articles** and given talks at the universities of Princeton, Tokyo, Nagoya and Brussels.
+I have led several projects with international collaborators, written **13 scientific articles** and given talks at the universities of Princeton, Tokyo, Nagoya and Brussels.
 
 For more details, see here my [Curriculum Vitae](/pablovd_cv.pdf){:target="_blank"}.
 

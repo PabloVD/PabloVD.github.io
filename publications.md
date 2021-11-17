@@ -8,9 +8,16 @@ permalink: /publications/
 These are my scientific publications.
 You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.net/authors/1615007?ui-citation-summary=true) and [arXiv](https://arxiv.org/a/villanuevadomingo_p_1.html) profiles.
 
-- Francisco Villaescusa-Navarro, Shy Genel, Daniel Angles-Alcazar, Leander Thiele, Romeel Dave, Desika Narayanan, Andrina Nicola, Yin Li, Pablo Villanueva-Domingo, Benjamin Wandelt, David N. Spergel et al. (CAMELS collaboration)\
+
+- Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro, Daniel Anglés-Alcázar, Shy Genel, Federico Marinacci, David N. Spergel, Lars Hernquist, Mark Vogelsberger, Romeel Dave, Desika Narayanan.\
+	**Inferring halo masses with Graph Neural Networks.**\
+	[arXiv:2111.08683](https://arxiv.org/abs/2111.08683)
+
+
+- Francisco Villaescusa-Navarro, Shy Genel, Daniel Angles-Alcazar, Leander Thiele, Romeel Dave, Desika Narayanan, Andrina Nicola, Yin Li, Pablo Villanueva-Domingo, Benjamin Wandelt, David N. Spergel et al. (CAMELS collaboration).\
 	**The CAMELS Multifield Dataset: Learning the Universe's Fundamental Parameters with Artificial Intelligence.**\
 	[arXiv:2109.10915](https://arxiv.org/abs/2109.10915)
+
 
 - Pablo Villanueva-Domingo and Kiyotomo Ichiki.\
 	**21 cm Forest Constraints on Primordial Black Holes.**\

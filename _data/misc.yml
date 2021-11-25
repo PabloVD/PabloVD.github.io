@@ -2,6 +2,11 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
+- name: CollabGraphINSPIRE
+  gh_user: PabloVD
+  repo: CollabGraphINSPIRE
+  img: ../images/InspireGraph.png
+  desc: Scrape publication data from the INSPIRE-HEP database using its API to create a graph of collaborations employing Networkx.
 
 - name: MetroidPy
   gh_user: PabloVD

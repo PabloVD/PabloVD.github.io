@@ -14,6 +14,12 @@
   img: ../images/Metroid_mini.png
   desc: Simple videogame based on the classic Metroid programmed in Python and Pygame.
 
+- name: Copyd
+  gh_user: PabloVD
+  repo: Copyd
+  img: ../images/copyd.png
+  desc: Simple N-body simulator of a pandemic spread in Python, following the [SEIR model](https://www.wikiwand.com/en/Mathematical_modelling_of_infectious_disease).
+
 - name: MapGenerator
   gh_user: PabloVD
   repo: MapGenerator

@@ -20,3 +20,9 @@
   repo: GraphNNCenterOfMass
   img: ../images/GraphImage.png
   desc: Compute the center of mass of a particle system using several models of Graph Neural Networks with PyTorch Geometric.
+
+- name: GWClassifier
+  gh_user: PabloVD
+  repo: GWClassifier
+  img: ../images/regionsGW.png
+  desc: Classify gravitational waves events detected by LIGO using machine learning models with sklearn.

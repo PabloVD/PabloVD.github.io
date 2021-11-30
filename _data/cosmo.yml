@@ -32,4 +32,10 @@
   gh_user: PabloVD
   repo: BAOlets
   img: ../images/baolets.png
-  desc: Fortran code to identify Baryonic Acoustic Oscillations in the LOWZ SDSS galaxy survey via wavelets.
+  desc: Fortran code to identify Baryonic Acoustic Oscillations in the LOWZ SDSS galaxy survey via wavelets. Data extracted with a SQL query.
+
+- name: SupernovaMCMC
+  gh_user: PabloVD
+  repo: SupernovaMCMC
+  img: ../images/SNeIaMCMC.png
+  desc: Run Monte Carlo Markov Chains using the Metropolis-Hastings algorithm with Supernovae Ia data to perform cosmological parameter inference.

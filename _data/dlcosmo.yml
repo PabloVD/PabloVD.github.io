@@ -6,7 +6,7 @@
   gh_user: PabloVD
   repo: HaloGraphNet
   img: ../images/visualize_graph.png
-  desc: Graph Neural Networks to predict the mass of a dark matter halo from its hosted galaxies in hydrodynamic simulations, making use of PyTorch Geometric. More details in the paper [2111.08683](https://arxiv.org/abs/2111.08683).
+  desc: Graph Neural Networks to predict the mass of a dark matter halo from its hosted galaxies in hydrodynamic simulations, making use of PyTorch Geometric. More details in the papers [2111.08683](https://arxiv.org/abs/2111.08683), [2111.14874](https://arxiv.org/abs/2111.14874).
 
 
 - name: 21cmDeepLearning

@@ -11,6 +11,6 @@ Moreover, I have applied **deep learning** techniques to cosmology, such as **co
 
 I have led several projects with international collaborators, written **15 scientific articles** and given talks at the universities of Princeton, Tokyo, Nagoya and Brussels. You can see [here](https://www.youtube.com/watch?v=07k2JH6c0lE&ab_channel=AIInitiativeForScience) one of my recent talks on deep learning applications in cosmology.
 
-For more details, see here my [Curriculum Vitae](/PabloVD_CV.pdf){:target="_blank"}.
+For more details, see here my [Curriculum Vitae](/pablovd_cv.pdf){:target="_blank"}.
 
 <img src="/images/Garbi.png" style="max-width:50%"/>

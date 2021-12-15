@@ -25,4 +25,4 @@
   gh_user: PabloVD
   repo: GWClassifier
   img: ../images/regionsGW.png
-  desc: Classify gravitational waves events detected by LIGO using machine learning models with sklearn.
+  desc: Classify glitches in gravitational waves events detected by LIGO using machine learning models with sklearn.

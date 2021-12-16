@@ -21,6 +21,12 @@
   img: ../images/GraphImage.png
   desc: Compute the center of mass of a particle system using several models of Graph Neural Networks with PyTorch Geometric.
 
+- name: HipparcosML
+  gh_user: PabloVD
+  repo: HipparcosML
+  img: ../images/Hippairplot.png
+  desc: Exploratory data analysis and classification of stars from the Hipparcos catalog using pandas, seaborn and sklearn.
+
 - name: GWClassifier
   gh_user: PabloVD
   repo: GWClassifier

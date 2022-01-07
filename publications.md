@@ -9,6 +9,11 @@ These are my scientific publications.
 You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.net/authors/1615007?ui-citation-summary=true) and [arXiv](https://arxiv.org/a/villanuevadomingo_p_1.html) profiles.
 
 
+- Francisco Villaescusa-Navarro, Shy Genel, Daniel Anglés-Alcázar, Lucia A. Perez, Pablo Villanueva-Domingo, Digvijay Wadekar, Helen Shao, Faizan G. Mohammad, Sultan Hassan, Emily Moser et al. (CAMELS collaboration)\
+	**The CAMELS project: public data release**\
+	[arXiv:2201.01300](https://arxiv.org/abs/2201.01300)
+
+
 - Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro, Shy Genel, Daniel Anglés-Alcázar, Lars Hernquist, Federico Marinacci, David N. Spergel, Mark Vogelsberger and Desika Narayanan.\
 	**Weighing the Milky Way and Andromeda with Artificial Intelligence**\
 	[arXiv:2111.14874](https://arxiv.org/abs/2111.14874)
@@ -82,3 +87,6 @@ You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.n
 - Laura Lopez-Honorez, Olga Mena, Sergio Palomares-Ruiz and Pablo Villanueva-Domingo.\
 	**Warm dark matter and the ionization history of the Universe**\
 	[Phys. Rev., D96(10):103539, 2017](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.103539), [arXiv:1703.02302](https://arxiv.org/abs/1703.02302)
+
+
+See [here](https://arxiv.org/abs/2112.08201) my PhD thesis **Shedding light on Dark Matter through 21 cm Cosmology and Reionization constraints**.

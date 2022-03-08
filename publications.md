@@ -31,7 +31,7 @@ You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.n
 
 - Pablo Villanueva-Domingo and Kiyotomo Ichiki.\
 	**21 cm Forest Constraints on Primordial Black Holes**\
-	[arXiv:2104.10695](https://arxiv.org/abs/2104.10695)
+	[Publications of the Astronomical Society of Japan, psab119](https://academic.oup.com/pasj/advance-article/doi/10.1093/pasj/psab119/6524776?guestAccessKey=816439ff-44cd-4dc0-bd50-5aeeac83dc6a), [arXiv:2104.10695](https://arxiv.org/abs/2104.10695)
 
 
 - Pablo Villanueva-Domingo, Olga Mena and Sergio Palomares-Ruiz.\

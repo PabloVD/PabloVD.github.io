@@ -14,6 +14,12 @@
   img: ../images/Metroid_mini.png
   desc: Simple videogame based on the classic Metroid programmed in Python and Pygame.
 
+- name: CNNDiagram
+  gh_user: PabloVD
+  repo: CNNDiagram
+  img: ../images/diagram2D.png
+  desc: Processing script to generate convolutional neural network diagrams.
+
 - name: Copyd
   gh_user: PabloVD
   repo: Copyd

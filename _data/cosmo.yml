@@ -4,6 +4,12 @@
 
 
 
+- name: nuHawkHunter
+  gh_user: vmmunoza
+  repo: nuHawkHunter
+  img: ../images/pbhneutrinos.png
+  desc: Code to study bounds on the primordial black holes abundance with neutrino fluxes from emitted Hawking evaporation. More details in the paper [2203.14979](https://arxiv.org/abs/2203.14979).
+
 - name: 21cmBounds
   gh_user: PabloVD
   repo: 21cmBounds

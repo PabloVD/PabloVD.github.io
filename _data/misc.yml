@@ -26,6 +26,12 @@
   img: ../images/copyd.png
   desc: Simple N-body simulator of a pandemic spread in Python, following the [SEIR model](https://www.wikiwand.com/en/Mathematical_modelling_of_infectious_disease).
 
+- name: FractalUniverses
+  gh_user: PabloVD
+  repo: FractalUniverses
+  img: ../images/soneirapeebles.png
+  desc: Generate pictures of fractal universes for different models of hierarchical clustering of galaxies.
+
 - name: MapGenerator
   gh_user: PabloVD
   repo: MapGenerator

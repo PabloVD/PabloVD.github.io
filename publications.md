@@ -9,6 +9,11 @@ These are my scientific publications.
 You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.net/authors/1615007?ui-citation-summary=true) and [arXiv](https://arxiv.org/a/villanuevadomingo_p_1.html) profiles.
 
 
+- Pablo Villanueva-Domingo and Francisco Villaescusa-Navarro.\
+	**Learning cosmology and clustering with cosmic graphs**\
+	[arXiv:2204.13713](https://arxiv.org/abs/2204.13713)
+
+
 - Nicolás Bernal, Víctor Muñoz-Albornoz, Sergio Palomares-Ruiz and Pablo Villanueva-Domingo.\
 	**Current and future neutrino limits on the abundance of primordial black holes**\
 	[arXiv:2203.14979](https://arxiv.org/abs/2203.14979)

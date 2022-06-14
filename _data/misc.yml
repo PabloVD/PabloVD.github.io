@@ -2,6 +2,12 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
+- name: NeuralCellularAutomata
+  gh_user: PabloVD
+  repo: NeuralCellularAutomata
+  img: ../images/worms_ca.png
+  desc: Implementation of cellular automata as simple Convolutional Neural Networks using PyTorch.
+
 - name: CollabGraphINSPIRE
   gh_user: PabloVD
   repo: CollabGraphINSPIRE
@@ -49,3 +55,9 @@
   repo: GameOfLife
   img: ../images/GameOfLife.png
   desc: Implementation of Conway's Game of Life using Python and Pygame.
+
+- name: ElementaryCellularAutomata
+  gh_user: PabloVD
+  repo: ElementaryCellularAutomata
+  img: ../images/eca.png
+  desc: Elementary Wolfram's one-dimensional cellular automata following binary rules.

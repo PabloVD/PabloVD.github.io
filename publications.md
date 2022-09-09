@@ -9,6 +9,11 @@ These are my scientific publications.
 You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.net/authors/1615007?ui-citation-summary=true) and [arXiv](https://arxiv.org/a/villanuevadomingo_p_1.html) profiles.
 
 
+- Kenji Kadota, Pablo Villanueva-Domingo, Kiyotomo Ichiki, Kenji Hasegawa.\
+	**Boosting the 21 cm forest signals by the clumpy substructures**\
+	[arXiv:2209.01305](https://arxiv.org/abs/2209.01305)
+
+
 - Pablo Villanueva-Domingo and Francisco Villaescusa-Navarro.\
 	**Learning cosmology and clustering with cosmic graphs**\
 	[arXiv:2204.13713](https://arxiv.org/abs/2204.13713)

@@ -11,7 +11,7 @@ I have applied **deep learning** techniques to cosmology, such as **convolutiona
 
 I recently joined the Computer Vision Center at the Universitat Autònoma de Barcelona as a **deep learning scientist**. There, I am applying graph neural networks to learn terramechanics simulations in the autonomous driving project [CARLA](https://carla.org/).
 
-I have led several projects with international collaborators, written **18 scientific articles** and given talks at the universities of Princeton, Tokyo, Nagoya and Brussels. You can see below one of my recent talks on deep learning applications in cosmology.
+I have led several projects with international collaborators, written **19 scientific articles** and given talks at the universities of Princeton, Tokyo, Nagoya and Brussels. You can see below one of my recent talks on deep learning applications in cosmology.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/07k2JH6c0lE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

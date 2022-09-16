@@ -8,6 +8,10 @@ permalink: /publications/
 These are my scientific publications.
 You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.net/authors/1615007?ui-citation-summary=true) and [arXiv](https://arxiv.org/a/villanuevadomingo_p_1.html) profiles.
 
+- Helen Shao, Francisco Villaescusa-Navarro, Pablo Villanueva-Domingo, Romain Teyssier,  Lehman H. Garrison, Marco Gatti, Derek Inman, Yueying Ni, Ulrich P. Steinwandel, Mihir Kulkarni, Eli Visbal et al.
+	**Robust field-level inference with dark matter halos**
+	[arXiv:2209.06843](https://arxiv.org/abs/2209.06843)
+
 
 - Kenji Kadota, Pablo Villanueva-Domingo, Kiyotomo Ichiki, Kenji Hasegawa.\
 	**Boosting the 21 cm forest signals by the clumpy substructures**\

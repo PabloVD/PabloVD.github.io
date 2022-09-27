@@ -40,11 +40,12 @@ You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.n
 
 - Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro, Daniel Anglés-Alcázar, Shy Genel, Federico Marinacci, David N. Spergel, Lars Hernquist, Mark Vogelsberger, Romeel Dave and Desika Narayanan.\
 	**Inferring halo masses with Graph Neural Networks**\
-	[arXiv:2111.08683](https://arxiv.org/abs/2111.08683)
+	[Astrophys. J., 935 30, 2022](https://iopscience.iop.org/article/10.3847/1538-4357/ac7aa3), [arXiv:2111.08683](https://arxiv.org/abs/2111.08683)
 
 
 - Francisco Villaescusa-Navarro, Shy Genel, Daniel Angles-Alcazar, Leander Thiele, Romeel Dave, Desika Narayanan, Andrina Nicola, Yin Li, Pablo Villanueva-Domingo, Benjamin Wandelt, David N. Spergel et al. (CAMELS collaboration).\
 	**The CAMELS Multifield Dataset: Learning the Universe's Fundamental Parameters with Artificial Intelligence**\
+	[Astrophys. J., 259 61, 2022](https://iopscience.iop.org/article/10.3847/1538-4365/ac5ab0),
 	[arXiv:2109.10915](https://arxiv.org/abs/2109.10915)
 
 

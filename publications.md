@@ -20,7 +20,7 @@ You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.n
 
 - Pablo Villanueva-Domingo and Francisco Villaescusa-Navarro.\
 	**Learning cosmology and clustering with cosmic graphs**\
-	[arXiv:2204.13713](https://arxiv.org/abs/2204.13713)
+	[Astrophys. J., 937 115, 2022](https://iopscience.iop.org/article/10.3847/1538-4357/ac8930), [arXiv:2204.13713](https://arxiv.org/abs/2204.13713)
 
 
 - Nicolás Bernal, Víctor Muñoz-Albornoz, Sergio Palomares-Ruiz and Pablo Villanueva-Domingo.\

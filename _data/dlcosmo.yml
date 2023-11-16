@@ -21,3 +21,11 @@
   repo: 21cmDeepLearning
   img: ../images/gaussiannoise.png
   desc: Convolutional Neural Network to extract the underlying matter density field from a 21 cm map, employing the U-Net architecture in PyTorch. More details in the paper [2006.14305](https://arxiv.org/abs/2006.14305), [ApJ 907 44, 2021](https://iopscience.iop.org/article/10.3847/1538-4357/abd245).
+
+
+- name: CosmoDiffusion
+  gh_user: PabloVD
+  repo: CosmoDiffusion
+  img: ../images/cosmodiffussion.png
+  desc: Denoising Diffusion Probabilistic Model (DDPM) in Pytorch trained in the [CAMELS simulations](https://www.camel-simulations.org/) to generate cosmological density maps.
+

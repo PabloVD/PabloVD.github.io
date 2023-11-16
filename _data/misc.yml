@@ -2,11 +2,24 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
+ 
+- name: HeightMapGenerator
+  gh_user: PabloVD
+  repo: HeightMapGenerator
+  img: ../images/heightmap.png
+  desc: Python script to generate a height map from a given power spectrum.
+
 - name: NeuralCellularAutomata
   gh_user: PabloVD
   repo: NeuralCellularAutomata
   img: ../images/worms_ca.png
   desc: Implementation of cellular automata as simple Convolutional Neural Networks using PyTorch.
+
+- name: XarxaMusical
+  gh_user: PabloVD
+  repo: XarxaMusical
+  img: ../images/black_metal_graph.png
+  desc: Create a graph of memberships and collaborations from a musical movement using Networkx.
 
 - name: CollabGraphINSPIRE
   gh_user: PabloVD

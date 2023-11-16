@@ -26,6 +26,6 @@
 - name: CosmoDiffusion
   gh_user: PabloVD
   repo: CosmoDiffusion
-  img: ../images/cosmodiffussion.png
+  img: ../images/cosmodiffusion.png
   desc: Denoising Diffusion Probabilistic Model (DDPM) in Pytorch trained in the [CAMELS simulations](https://www.camel-simulations.org/) to generate cosmological density maps.
 

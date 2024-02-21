@@ -6,7 +6,7 @@ permalink: /publications/
 ---
 
 These are my scientific publications.
-You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.net/authors/1615007?ui-citation-summary=true) and [arXiv](https://arxiv.org/a/villanuevadomingo_p_1.html) profiles.
+You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.net/authors/1615007?ui-citation-summary=true), [arXiv](https://arxiv.org/a/villanuevadomingo_p_1.html) and [Google Scholar](https://scholar.google.com/citations?user=NbQJPXQAAAAJ&hl=ca) profiles.
 
 - Helen Shao, Francisco Villaescusa-Navarro, Pablo Villanueva-Domingo, Romain Teyssier,  Lehman H. Garrison, Marco Gatti, Derek Inman, Yueying Ni, Ulrich P. Steinwandel, Mihir Kulkarni, Eli Visbal et al.\
 	**Robust field-level inference with dark matter halos**\

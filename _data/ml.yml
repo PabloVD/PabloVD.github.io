@@ -18,7 +18,7 @@
   gh_user: PabloVD
   repo: HumanoidRL
   img: ../images/humanoid.png
-  desc: Train reinforcement learning algorithms with Humanoid environment from Mujoco using StableBaselines3.
+  desc: Train reinforcement learning algorithms with [Humanoid environment from Mujoco](https://gymnasium.farama.org/environments/mujoco/humanoid/) using [StableBaselines3](https://stable-baselines3.readthedocs.io/en/master/).
 
 - name: PoemGenerator
   gh_user: PabloVD

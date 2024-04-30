@@ -14,6 +14,12 @@
   img: ../images/carla_sem_seg.png
   desc: Pytorch model to learn semantic segmentation of driving images generated with the [CARLA simulator](https://carla.org/).
 
+- name: HumanoidRL
+  gh_user: PabloVD
+  repo: HumanoidRL
+  img: ../images/humanoid.png
+  desc: Train reinforcement learning algorithms with Humanoid environment from Mujoco using StableBaselines3.
+
 - name: PoemGenerator
   gh_user: PabloVD
   repo: PoemGenerator

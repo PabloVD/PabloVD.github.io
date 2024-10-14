@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xarxa Musical</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            margin: 0;
+            padding: 15px;
+            background-color: #f4f4f4;
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+        }
+        select {
+            display: block;
+            margin: 10px auto;
+            padding: 5px;
+            font-size: 16px;
+            background-color: #fff;
+            border: 2px solid #616161;
+            border-radius: 5px;
+            width: 33%;
+            text-align: center;
+            color: #616161;
+            cursor: pointer;
+        }
+        select:focus {
+            outline: none;
+            border-color: #000000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .text {
+            margin: 10 auto;
+            padding: 20px;
+            background-color: rgb(255, 255, 255);
+            font-size: 16px;
+        }
+        .iframe-container {
+            flex-grow: 1; /* This makes the iframe container fill the remaining space */
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Xarxa Musical</h1>
+
+    <div class="text">
+        Visualize the connections between different bands, artists and musicians within a music scene, selected from the drop down menu below:
+    </div>
+
+    <select id="pageSelect">
+        <option value="xarxa_pages/catalan_extreme_metal.html">Catalan Extreme Metal</option>
+        <option value="xarxa_pages/extremoduro.html">Extremoduro and related artists</option>
+        <option selected="selected" value="xarxa_pages/jazz.html">Jazz</option>
+        <option value="xarxa_pages/neofolk.html">Neofolk</option>
+        <option value="xarxa_pages/norwegian_black_metal.html">Norwegian black metal</option>
+        <option value="xarxa_pages/rock_radical_vasco.html">Rock radical vasco</option>
+        <option value="xarxa_pages/valencian.html">Valencian music scene</option>
+        <option value="xarxa_pages/folk_valencia.html">Valencian folk</option>
+    </select>
+
+    <div class="text">
+    Data has been manually extracted from <a href=https://wikipedia.org>Wikipedia</a>, <a href=https://discogs.com>Discogs</a>, <a href=https://rym.fm>Rate your music</a> and other sources. In the images below, purple nodes correspond to bands/artits while orange nodes to musicians, orange lines indicate member of band and purple lines indicate collaborations.
+    <br><br>
+    The graph is created with <a href=https://networkx.org>networkx</a> and rendered with <a href=https://github.com/medialab/ipysigma>ipysigma</a>. You can find the github repository <a href="https://github.com/PabloVD/XarxaMusical.git">here</a>.
+    <br>
+    If you want to include new data or have comments or suggestions, feel free to create a pull request or contact me at <a href="mailto:pablo.villanueva.domingo@gmail.com">pablo.villanueva.domingo@gmail.com</a>. 
+    </div>
+
+    <div class="iframe-container">
+        <iframe id="contentFrame" src="xarxa_pages/jazz.html" title="Content Frame"></iframe>
+    </div>
+
+    <script>
+        const iframe = document.getElementById('contentFrame');
+        const select = document.getElementById('pageSelect');
+
+        select.addEventListener('change', function() {
+            const selectedPage = this.value;
+            iframe.src = selectedPage;
+        });
+    </script>
+    
+</body>
+</html>

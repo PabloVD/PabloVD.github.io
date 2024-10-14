@@ -20,11 +20,11 @@
   img: ../images/worms_ca.png
   desc: Implementation of cellular automata as simple Convolutional Neural Networks using PyTorch.
 
-- name: XarxaMusical
+- name: MusicGraph
   gh_user: PabloVD
-  repo: XarxaMusical
+  repo: MusicGraph
   img: ../images/black_metal_graph.png
-  desc: Create a graph of memberships and collaborations from a musical movement using Networkx.
+  desc: Create a graph of memberships and collaborations from a musical movement using Networkx and ipysigma. See [here](https://pablovd.github.io/musicgraph.html) a webpage with examples.
 
 - name: CollabGraphINSPIRE
   gh_user: PabloVD

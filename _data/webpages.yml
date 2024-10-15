@@ -1,0 +1,21 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+- name: MusicGraph
+  gh_user: PabloVD
+  repo: https://pablovd.github.io/misc/musicgraph.html
+  img: ../images/musicgraph.png
+  desc: Visualize the relations between different musical bands and musicians within a musical scene. 
+
+- name: PabloVD
+  gh_user: PabloVD
+  repo: https://pablovd.github.io/
+  img: ../images/myweb.png
+  desc: My own webpage you are seeing, rendered using [Jekyll](https://jekyllrb.com/).
+  
+- name: GalaxIAInsights
+  gh_user: PabloVD
+  repo: https://galaxiainsights.github.io/
+  img: ../images/galaxiainsights.png
+  desc: Website for a machine learning company project, rendered using [Jekyll](https://jekyllrb.com/).

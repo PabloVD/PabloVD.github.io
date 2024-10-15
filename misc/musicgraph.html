@@ -64,14 +64,15 @@
     </div>
 
     <select id="pageSelect">
-        <option value="music_graph_pages/catalan_extreme_metal.html">Catalan Extreme Metal</option>
-        <option value="music_graph_pages/extremoduro.html">Extremoduro and related artists</option>
-        <option selected="selected" value="music_graph_pages/jazz.html">Jazz</option>
-        <option value="music_graph_pages/neofolk.html">Neofolk</option>
-        <option value="music_graph_pages/norwegian_black_metal.html">Norwegian black metal</option>
-        <option value="music_graph_pages/rock_radical_vasco.html">Rock radical vasco</option>
-        <option value="music_graph_pages/valencian.html">Valencian music scene</option>
-        <option value="music_graph_pages/folk_valencia.html">Valencian folk</option>
+        <option value="catalan_extreme_metal">Catalan Extreme Metal</option>
+        <option value="extremoduro">Extremoduro and related artists</option>
+        <option selected="selected" value="jazz">Jazz</option>
+        <option value="neofolk">Neofolk</option>
+        <option value="norwegian_black_metal">Norwegian black metal</option>
+        <option value="rock_radical_vasco">Rock radical vasco</option>
+        <option value="spanish_rap">Spanish Rap</option>
+        <option value="valencian">Valencian music scene</option>
+        <option value="folk_valencia">Valencian folk</option>
     </select>
 
     <div class="text">
@@ -79,23 +80,50 @@
     <br><br>
     Data has been manually extracted from <a href=https://wikipedia.org>Wikipedia</a>, <a href=https://discogs.com>Discogs</a>, <a href=https://rym.fm>Rate your music</a> and other sources. Data is incomplete and can present inconsistencies, this is a work in progress.
     <br><br>
-    The graph is created with <a href=https://networkx.org>networkx</a> and rendered with <a href=https://github.com/medialab/ipysigma>ipysigma</a>. You can find the github repository with the source code<a href="https://github.com/PabloVD/MusicGraph.git">here</a>.
-    <br>
+    The graph is created with <a href=https://networkx.org>networkx</a> and rendered with <a href=https://github.com/medialab/ipysigma>ipysigma</a>. You can find the github repository with the source code <a href="https://github.com/PabloVD/MusicGraph.git">here</a>.
+    <br><br>
     If you want to include new data or have comments or suggestions, feel free to create a pull request or contact me at <a href="mailto:pablo.villanueva.domingo@gmail.com">pablo.villanueva.domingo@gmail.com</a>. 
     </div>
 
     <div class="iframe-container">
-        <iframe id="contentFrame" src="music_graph_pages/jazz.html" title="Content Frame"></iframe>
+        <iframe id="contentFrame" src="musicgraph_pages/jazz.html" title="Content Frame"></iframe>
     </div>
 
     <script>
         const iframe = document.getElementById('contentFrame');
         const select = document.getElementById('pageSelect');
 
+        // Function to get URL parameters
+        function getUrlParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Get the page parameter from the URL
+        const page = getUrlParameter('page') || 'jazz'; // Default to 'html1.html'
+
+        // Set the dropdown value and iframe source
+        select.value = page;
+        iframe.src = 'musicgraph_pages/'+page+'.html';
+
+        // Update iframe source when the dropdown value changes
         select.addEventListener('change', function() {
             const selectedPage = this.value;
-            iframe.src = selectedPage;
+            iframe.src = "musicgraph_pages/"+selectedPage+".html";
+
+            // Update the URL without reloading the page
+            const newUrl = `${window.location.pathname}?page=${selectedPage}`;
+            window.history.replaceState(null, '', newUrl);
         });
+
+        // Check if the page exists in the dropdown options
+        const optionExists = Array.from(select.options).some(option => option.value === page);
+
+        // If the page parameter doesn't match an option, reset to the default
+        if (!optionExists) {
+            select.value = 'jazz';
+            iframe.src = 'musicgraph_pages/jazz.html';
+        }
     </script>
     
 </body>

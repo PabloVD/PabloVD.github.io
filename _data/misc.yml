@@ -24,25 +24,25 @@
   gh_user: PabloVD
   repo: MusicGraph
   img: ../images/black_metal_graph.png
-  desc: Create a graph of memberships and collaborations from a musical movement using Networkx and ipysigma. See [here](https://pablovd.github.io/musicgraph.html) a webpage with examples.
+  desc: Create a graph of memberships and collaborations from a musical movement using [Networkx](https://networkx.org/) and [ipysigma](https://github.com/medialab/ipysigma). Source code used for [this webpage](https://pablovd.github.io/musicgraph.html).
 
 - name: CollabGraphINSPIRE
   gh_user: PabloVD
   repo: CollabGraphINSPIRE
   img: ../images/InspireGraph.png
-  desc: Scrape publication data from the INSPIRE-HEP database using its API to create a graph of collaborations employing Networkx.
+  desc: Scrape publication data from the [INSPIRE-HEP](https://inspirehep.net/) database using its API to create a graph of collaborations employing [Networkx](https://networkx.org/).
 
 - name: MetroidPy
   gh_user: PabloVD
   repo: MetroidPy
   img: ../images/Metroid_mini.png
-  desc: Simple videogame based on the classic Metroid programmed in Python and Pygame.
+  desc: Simple videogame based on the classic Metroid programmed in Python and [Pygame](https://www.pygame.org/).
 
 - name: CNNDiagram
   gh_user: PabloVD
   repo: CNNDiagram
   img: ../images/diagram2D.png
-  desc: Processing script to generate convolutional neural network diagrams.
+  desc: A [Processing](https://processing.org/) script to generate convolutional neural network diagrams.
 
 - name: Copyd
   gh_user: PabloVD
@@ -72,7 +72,7 @@
   gh_user: PabloVD
   repo: GameOfLife
   img: ../images/GameOfLife.png
-  desc: Implementation of Conway's Game of Life using Python and Pygame.
+  desc: Implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) using Python and Pygame.
 
 - name: ElementaryCellularAutomata
   gh_user: PabloVD

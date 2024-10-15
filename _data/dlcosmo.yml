@@ -6,14 +6,14 @@
   gh_user: PabloVD
   repo: HaloGraphNet
   img: ../images/cosmograph.png
-  desc: Graph Neural Networks to infer cosmological parameters and power spectrum on galaxy catalogues, making use of PyTorch Geometric. More details in the paper [2204.13713](https://arxiv.org/abs/2204.13713).
+  desc: Graph Neural Networks to infer cosmological parameters and power spectrum on galaxy catalogues, making use of [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/). More details in the paper [2204.13713](https://arxiv.org/abs/2204.13713).
 
 
 - name: HaloGraphNet
   gh_user: PabloVD
   repo: HaloGraphNet
   img: ../images/visualize_graph.png
-  desc: Graph Neural Networks to predict the mass of a dark matter halo from its hosted galaxies in hydrodynamic simulations, using of PyTorch Geometric. More details in the papers [2111.08683](https://arxiv.org/abs/2111.08683), [2111.14874](https://arxiv.org/abs/2111.14874).
+  desc: Graph Neural Networks to predict the mass of a dark matter halo from its hosted galaxies in hydrodynamic simulations, using of [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/). More details in the papers [2111.08683](https://arxiv.org/abs/2111.08683), [2111.14874](https://arxiv.org/abs/2111.14874).
 
 
 - name: 21cmDeepLearning

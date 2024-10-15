@@ -6,16 +6,16 @@
   gh_user: PabloVD
   repo: https://pablovd.github.io/misc/musicgraph.html
   img: ../images/musicgraph.png
-  desc: Visualize the relations between different musical bands and musicians within a musical scene. 
-
-- name: PabloVD
-  gh_user: PabloVD
-  repo: https://pablovd.github.io/
-  img: ../images/myweb.png
-  desc: My own webpage you are seeing, rendered using [Jekyll](https://jekyllrb.com/).
+  desc: Visualize the relations between different musical bands and musicians within a musical scene, using [Networkx](https://networkx.org/) and [ipysigma](https://github.com/medialab/ipysigma).
   
 - name: GalaxIAInsights
   gh_user: PabloVD
   repo: https://galaxiainsights.github.io/
   img: ../images/galaxiainsights.png
   desc: Website for a machine learning company project, rendered using [Jekyll](https://jekyllrb.com/).
+  
+- name: PabloVD
+  gh_user: PabloVD
+  repo: https://pablovd.github.io/
+  img: ../images/myweb.png
+  desc: My own webpage you are seeing, rendered using [Jekyll](https://jekyllrb.com/).

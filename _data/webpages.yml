@@ -8,6 +8,12 @@
   img: ../images/musicgraph.png
   desc: Visualize the relations between different musical bands and musicians within a musical scene, using [Networkx](https://networkx.org/) and [ipysigma](https://github.com/medialab/ipysigma).
   
+- name: StravaActivity
+  gh_user: PabloVD
+  repo: https://pablovd.github.io/misc/strava.html
+  img: ../images/musicgraph.png
+  desc: A summary of my own activity biking, hiking and running registered in [Strava](https://www.strava.com/), scrapped through the [Strava API](https://developers.strava.com/) and visualized with [Folium](https://python-visualization.github.io/folium/latest/) and [Plotly](https://plotly.com/).
+  
 - name: GalaxIAInsights
   gh_user: PabloVD
   repo: https://galaxiainsights.github.io/

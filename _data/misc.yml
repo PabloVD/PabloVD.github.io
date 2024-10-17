@@ -26,6 +26,12 @@
   img: ../images/black_metal_graph.png
   desc: Create a graph of memberships and collaborations from a musical movement using [Networkx](https://networkx.org/) and [ipysigma](https://github.com/medialab/ipysigma). Source code used for [this webpage](https://pablovd.github.io/musicgraph.html).
 
+- name: StravaActivity
+  gh_user: PabloVD
+  repo: https://pablovd.github.io/misc/strava.html
+  img: ../images/stravaexample.png
+  desc: Visualize [Strava](https://www.strava.com/) activity, scrapped through the [Strava API](https://developers.strava.com/) and visualized with [Folium](https://python-visualization.github.io/folium/latest/) and [Plotly](https://plotly.com/). Source code for [this website](https://pablovd.github.io/strava.html).
+
 - name: CollabGraphINSPIRE
   gh_user: PabloVD
   repo: CollabGraphINSPIRE

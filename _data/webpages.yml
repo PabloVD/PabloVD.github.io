@@ -11,7 +11,7 @@
 - name: StravaActivity
   gh_user: PabloVD
   repo: https://pablovd.github.io/misc/strava.html
-  img: ../images/musicgraph.png
+  img: ../images/stravaexample.png
   desc: A summary of my own activity biking, hiking and running registered in [Strava](https://www.strava.com/), scrapped through the [Strava API](https://developers.strava.com/) and visualized with [Folium](https://python-visualization.github.io/folium/latest/) and [Plotly](https://plotly.com/).
   
 - name: GalaxIAInsights

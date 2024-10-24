@@ -1,12 +1,6 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-
-- name: FisheyeCubemap
-  gh_user: PabloVD
-  repo: FisheyeCubemap
-  img: ../images/Equidistant_blended.png
-  desc: Generate wide lens fisheye camera images from cubemap renders.
  
 - name: HeightMapGenerator
   gh_user: PabloVD

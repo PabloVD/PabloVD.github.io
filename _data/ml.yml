@@ -8,12 +8,6 @@
   img: ../images/humanoid.png
   desc: Train reinforcement learning algorithms with the [Mujoco's Humanoid environment](https://gymnasium.farama.org/environments/mujoco/humanoid/) using [StableBaselines3](https://stable-baselines3.readthedocs.io/en/master/).
 
-- name: PoemGenerator
-  gh_user: PabloVD
-  repo: PoemGenerator
-  img: ../images/lope.png
-  desc: Train a recurrent neural network (LSTM) with PyTorch to generate poems imitating the style of an author.
-
 - name: DCGAN
   gh_user: PabloVD
   repo: ImageGAN

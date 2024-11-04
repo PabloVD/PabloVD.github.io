@@ -4,7 +4,7 @@
 
 - name: CosmoGraphNet
   gh_user: PabloVD
-  repo: HaloGraphNet
+  repo: CosmoGraphNet
   img: ../images/cosmograph.png
   desc: Graph Neural Networks to infer cosmological parameters and power spectrum on galaxy catalogues, making use of [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/). More details in the paper [2204.13713](https://arxiv.org/abs/2204.13713).
 

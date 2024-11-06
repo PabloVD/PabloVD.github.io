@@ -6,13 +6,13 @@
   gh_user: PabloVD
   repo: https://pablovd.github.io/misc/musicgraph.html
   img: ../images/musicgraph.png
-  desc: Visualize the relations between different musical bands and musicians within a musical scene, using [Networkx](https://networkx.org/) and [ipysigma](https://github.com/medialab/ipysigma).
+  desc: Visualize the relations between different musical bands and musicians within a musical scene, using [Networkx](https://networkx.org/) and [ipysigma](https://github.com/medialab/ipysigma). Source code [here](https://github.com/PabloVD/MusicGraph).
   
-- name: StravaActivity
+- name: StravaAnalysis
   gh_user: PabloVD
   repo: https://pablovd.github.io/misc/strava.html
   img: ../images/stravaexample.png
-  desc: A summary of my own activity biking, hiking and running registered in [Strava](https://www.strava.com/), scrapped through the [Strava API](https://developers.strava.com/) and visualized with [Folium](https://python-visualization.github.io/folium/latest/) and [Plotly](https://plotly.com/).
+  desc: A summary of my own activity biking, hiking and running registered in [Strava](https://www.strava.com/), scrapped through the [Strava API](https://developers.strava.com/) and visualized with [Folium](https://python-visualization.github.io/folium/latest/) and [Plotly](https://plotly.com/). Source code [here](https://github.com/PabloVD/StravaAnalysis).
   
 - name: GalaxIAInsights
   gh_user: PabloVD

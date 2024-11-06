@@ -1,0 +1,16 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+
+- name: GodotFPS
+  gh_user: PabloVD
+  repo: GodotFPS
+  img: ../images/godotfps.png
+  desc: Simple first-person shooter developed in [Godot](https://godotengine.org/).
+
+- name: MetroidPy
+  gh_user: PabloVD
+  repo: MetroidPy
+  img: ../images/Metroid_mini.png
+  desc: Videogame based on the classic Metroid programmed in Python and [Pygame](https://www.pygame.org/).

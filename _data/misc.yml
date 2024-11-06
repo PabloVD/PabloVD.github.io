@@ -32,12 +32,6 @@
   img: ../images/InspireGraph.png
   desc: Scrape publication data from the [INSPIRE-HEP](https://inspirehep.net/) database using its API to create a graph of collaborations employing [Networkx](https://networkx.org/).
 
-- name: MetroidPy
-  gh_user: PabloVD
-  repo: MetroidPy
-  img: ../images/Metroid_mini.png
-  desc: Simple videogame based on the classic Metroid programmed in Python and [Pygame](https://www.pygame.org/).
-
 - name: CNNDiagram
   gh_user: PabloVD
   repo: CNNDiagram

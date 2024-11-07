@@ -5,7 +5,7 @@
 - name: CAMELSDocBot
   gh_user: PabloVD
   repo: https://huggingface.co/spaces/PabloVD/CAMELSDocBot
-  img: ../images/camelsdocbot.png
+  img: ../images/camelsdocbot.jpg
   desc: Virtual assistant with a retrieval-augmented generation (RAG) system to query information and ask questions about the [CAMELS simulations](https://camels.readthedocs.io/en/latest/), using [Langchain](https://www.langchain.com/) with a [MistralAI](https://mistral.ai/) LLM and deployed with [Gradio](https://www.gradio.app/).
   
 - name: MedievalChatbot

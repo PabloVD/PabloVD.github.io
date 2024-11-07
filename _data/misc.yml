@@ -18,7 +18,7 @@
   gh_user: PabloVD
   repo: MapGenerator
   img: ../images/map.png
-  desc: Generate random geographical maps of archipielagos from gaussian fields, Perlin noise or other techniques.
+  desc: Generate procedural geographical maps from gaussian fields, Perlin noise or other random fields. Try an interactive demo [here](https://huggingface.co/spaces/PabloVD/MapGenerator).
 
 - name: CollabGraphINSPIRE
   gh_user: PabloVD

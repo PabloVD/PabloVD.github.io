@@ -91,15 +91,23 @@ You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.n
 
 See [here](https://arxiv.org/abs/2112.08201) my PhD thesis **Shedding light on Dark Matter through 21 cm Cosmology and Reionization constraints**.
 
-Here are some other miscelaneous short articles I wrote on cosmology, ML, physics, math and more.
+Here are some other miscelaneous short articles and notes I wrote on cosmology, ML, physics, math and more.
 
 - [Why Dark Matter matters: a brief historical overview of Dark Matter](articles/WhyDMMatters.pdf)
 
 - [A sketch of momentum conserving Graph Neural Networks](articles/Momentum_conserved_GNN.pdf)
 
+- [A derivation of black hole accretion equations in the expanding universe](articles/AccretionEquations.pdf)
+
+- [A discussion of different disk accretion analytical models](articles/AccretionModels.pdf)
+
 - [A summary of key concepts on camera calibration theory](articles/Camera_Theory.pdf)
 
 - [A summary of the SCM terramechanics equations](articles/SCM_Equations.pdf)
+
+- [An estimation of energy released by cosmic rays from supernova remnants](articles/CR.pdf)
+
+- [A discussion on the cosmic variance from the log normal density distribution](articles/VarianceNotes.pdf)
 
 - [Baryonic acoustic oscillations analysis with wavelets (in Spanish)](https://nbviewer.org/github/PabloVD/BAOlets/blob/master/Baolets.pdf)
 

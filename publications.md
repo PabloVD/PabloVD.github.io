@@ -97,6 +97,8 @@ Here are some other miscelaneous short articles and notes I wrote on cosmology, 
 
 - [A sketch of momentum conserving Graph Neural Networks](articles/Momentum_conserved_GNN.pdf)
 
+- [Summary of non-inertial dynamics](articles/Non_inertial_dynamics.pdf)
+
 - [A derivation of black hole accretion equations in the expanding universe](articles/AccretionEquations.pdf)
 
 - [A discussion of different disk accretion analytical models](articles/AccretionModels.pdf)

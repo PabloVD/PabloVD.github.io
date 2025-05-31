@@ -91,7 +91,7 @@
     </style>
 </head>
 <body>
-    <h1>Music Graph</h1>
+    <h1>BandGraph</h1>
 
     <div class="text">
         Visualize the connections between different bands, artists and musicians within a music scene, selected from the drop down menu below:
@@ -99,6 +99,7 @@
 
     <select id="pageSelect">
         <option value="british_heavy_metal">British Heavy Metal</option>
+        <option value="british_progressive_rock">British Progressive Rock</option>
         <option value="catalan_extreme_metal">Catalan Extreme Metal</option>
         <option value="extremoduro">Extremoduro and related artists</option>
         <option selected="selected" value="jazz">Jazz</option>
@@ -115,13 +116,13 @@
     <br><br>
     Data has been manually extracted from <a href=https://wikipedia.org>Wikipedia</a>, <a href=https://discogs.com>Discogs</a>, <a href=https://rym.fm>Rate your music</a> and other sources. Data is incomplete and can present inconsistencies, this is a work in progress.
     <br><br>
-    The graph is created with <a href=https://networkx.org>networkx</a> and rendered with <a href=https://github.com/medialab/ipysigma>ipysigma</a>. You can find the github repository with the source code <a href="https://github.com/PabloVD/MusicGraph.git">here</a>.
+    The graph is created with <a href=https://networkx.org>networkx</a> and rendered with <a href=https://github.com/medialab/ipysigma>ipysigma</a>. You can find the github repository with the source code <a href="https://github.com/PabloVD/BandGraph.git">here</a>.
     <br><br>
     If you want to include new data or have comments or suggestions, feel free to create a pull request or contact me at <a href="mailto:pablo.villanueva.domingo@gmail.com">pablo.villanueva.domingo@gmail.com</a>. 
     </div>
 
     <div class="iframe-container">
-        <iframe id="contentFrame" src="musicgraph_pages/jazz.html" title="Content Frame"></iframe>
+        <iframe id="contentFrame" src="bandgraph_pages/jazz.html" title="Content Frame"></iframe>
     </div>
 
     <script>
@@ -139,12 +140,12 @@
 
         // Set the dropdown value and iframe source
         select.value = page;
-        iframe.src = 'musicgraph_pages/'+page+'.html';
+        iframe.src = 'bandgraph_pages/'+page+'.html';
 
         // Update iframe source when the dropdown value changes
         select.addEventListener('change', function() {
             const selectedPage = this.value;
-            iframe.src = "musicgraph_pages/"+selectedPage+".html";
+            iframe.src = "bandgraph_pages/"+selectedPage+".html";
 
             // Update the URL without reloading the page
             const newUrl = `${window.location.pathname}?page=${selectedPage}`;
@@ -157,7 +158,7 @@
         // If the page parameter doesn't match an option, reset to the default
         if (!optionExists) {
             select.value = 'jazz';
-            iframe.src = 'musicgraph_pages/jazz.html';
+            iframe.src = 'bandgraph_pages/jazz.html';
         }
     </script>
     

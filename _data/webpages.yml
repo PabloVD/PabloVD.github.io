@@ -14,11 +14,11 @@
   img: ../images/gamehub.png
   desc: React+Typescript webpage fetching game data, imitating [Rawg](https://rawg.io/).
 
-- name: MusicGraph
+- name: BandGraph
   gh_user: PabloVD
-  repo: https://pablovd.github.io/misc/musicgraph.html
+  repo: https://pablovd.github.io/misc/bandgraph.html
   img: ../images/musicgraph.png
-  desc: Visualize the relations between different musical bands and musicians within a musical scene, using [Networkx](https://networkx.org/) and [ipysigma](https://github.com/medialab/ipysigma). Source code [here](https://github.com/PabloVD/MusicGraph).
+  desc: Visualize the relations between different musical bands and musicians within a musical scene, using [Networkx](https://networkx.org/) and [ipysigma](https://github.com/medialab/ipysigma). Source code [here](https://github.com/PabloVD/BandGraph).
 
 - name: StravaAnalysis
   gh_user: PabloVD

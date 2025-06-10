@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strava Activity</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            margin: 0;
+            padding: 15px;
+            background-color: #f4f4f4;
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+        }
+        h2 {
+            margin: 20px;
+            padding: 15px;
+            background-color: #ffffff;
+            text-align: justify;
+            font-size: 24px;
+            color: #333;
+        }
+        select {
+            display: block;
+            margin: 10px auto;
+            padding: 5px;
+            font-size: 16px;
+            background-color: #fff;
+            border: 2px solid #616161;
+            border-radius: 5px;
+            width: 33%;
+            text-align: center;
+            color: #616161;
+            cursor: pointer;
+        }
+        select:focus {
+            outline: none;
+            border-color: #000000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .text {
+            margin: 10 auto;
+            padding: 20px;
+            background-color: rgb(255, 255, 255);
+            font-size: 16px;
+        }
+        .iframe-container {
+            /* flex-grow: 0.5; This makes the iframe container fill the remaining space */
+            height: 500px;
+            flex: 1; /* Makes both blocks take up equal space */
+            margin: 10px;
+        }
+        .map-container {
+            flex-grow: 0.5; /* This makes the iframe container fill the remaining space */
+            height: 1000px;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+        .distance-elevation-container {
+            display: flex;
+            justify-content: space-between; /* Ensures space between the two elements */
+        }
+        .block {
+            width: 100%;
+        }
+        /* For screens smaller than 768px (tablets and phones) */
+        @media (max-width: 768px) {
+            .text {
+                padding: 15px;
+                font-size: 14px;
+                max-width: 90%; /* Reduce max width on smaller screens */
+            }
+
+            select {
+                width: 100%; /* Make the dropdown full-width on small screens */
+                font-size: 14px;
+            }
+
+            .iframe-container {
+                height: 400px; /* Adjust iframe height for mobile */
+            }
+        }
+
+        /* For screens smaller than 480px (small phones) */
+        @media (max-width: 480px) {
+            .text {
+                padding: 10px;
+                font-size: 12px;
+            }
+
+            select {
+                width: 100%;
+                font-size: 12px;
+            }
+
+            .iframe-container {
+                height: 300px; /* Smaller iframe height for small phones */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Pablo's Strava Activity Summary</h1>
+
+    <div class="text">
+        A summary of my own activity biking, hiking and running registered in <a href="https://www.strava.com/">Strava</a>, scrapped through the <a href="https://developers.strava.com/">Strava API</a> and visualized with <a href="https://python-visualization.github.io/folium/latest/">Folium</a> and <a href="https://plotly.com/">Plotly</a>.
+        <br><br>
+        See the github repository with the source code <a href="https://github.com/PabloVD/StravaAnalysis">here</a>.
+    </div>
+
+    <h2>Activity routes</h2>
+    <div class="map-container">
+        <iframe id="contentFrame" src="strava_pages/route_map.html" title="Content Frame"></iframe>
+    </div>
+
+    <div class="distance-elevation-container">
+
+        <div class="block">
+            <h2>Distance</h2>
+            <div class="text">
+                Routes' distance as a function of date
+            </div>
+        <div class="iframe-container">
+            <iframe id="contentFrame" src="strava_pages/date_vs_distance.html" title="Content Frame"></iframe>
+        </div>
+        </div>
+    
+        <div class="block">
+        <h2>Total elevation gain</h2>
+        <div class="text">
+            Routes' total elevation gain (accumulated elevation) as a function of date
+        </div>
+        <div class="iframe-container">
+            <iframe id="contentFrame" src="strava_pages/date_vs_elevation.html" title="Content Frame"></iframe>
+        </div>
+        </div>
+        
+    </div>
+
+    <div class="distance-elevation-container">
+
+        <div class="block">
+            <h2>Eddington number</h2>
+            <div class="text">
+                The Eddington number is <i>N</i> if there are <i>N</i> routes with a distance of <i>N</i> km.
+            </div>
+        
+        <div class="iframe-container">
+            <iframe id="contentFrame" src="strava_pages/eddington.html" title="Content Frame"></iframe>
+        </div>
+        </div>
+    
+        <div class="block">
+        <h2>Fitness & Freshness</h2>
+        <div class="text">
+            Fitnes and freshness models
+        </div>
+        <div class="iframe-container">
+            <iframe id="contentFrame" src="strava_pages/fitness.html" title="Content Frame"></iframe>
+        </div>
+        </div>
+        
+    </div>
+
+    
+    <!-- <h2>Fitness & Freshness</h2> -->
+    <!-- <div class="iframe-container">
+        <iframe id="contentFrame" src="strava_pages/fitness.html" title="Content Frame"></iframe>
+    </div> -->
+    
+</body>
+</html>

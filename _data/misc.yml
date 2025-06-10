@@ -1,6 +1,12 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+ 
+- name: HeightMapGenerator
+  gh_user: PabloVD
+  repo: HeightMapGenerator
+  img: ../images/heightmap.png
+  desc: Python script to generate a height map from a given power spectrum.
 
 - name: NeuralCellularAutomata
   gh_user: PabloVD
@@ -8,23 +14,23 @@
   img: ../images/worms_ca.png
   desc: Implementation of cellular automata as simple Convolutional Neural Networks using PyTorch.
 
+- name: MapGenerator
+  gh_user: PabloVD
+  repo: MapGenerator
+  img: ../images/map.png
+  desc: Generate procedural geographical maps from gaussian fields, Perlin noise or other random fields. Try an interactive demo [here](https://huggingface.co/spaces/PabloVD/MapGenerator).
+
 - name: CollabGraphINSPIRE
   gh_user: PabloVD
   repo: CollabGraphINSPIRE
   img: ../images/InspireGraph.png
-  desc: Scrape publication data from the INSPIRE-HEP database using its API to create a graph of collaborations employing Networkx.
-
-- name: MetroidPy
-  gh_user: PabloVD
-  repo: MetroidPy
-  img: ../images/Metroid_mini.png
-  desc: Simple videogame based on the classic Metroid programmed in Python and Pygame.
+  desc: Scrape publication data from the [INSPIRE-HEP](https://inspirehep.net/) database using its API to create a graph of collaborations employing [Networkx](https://networkx.org/).
 
 - name: CNNDiagram
   gh_user: PabloVD
   repo: CNNDiagram
   img: ../images/diagram2D.png
-  desc: Processing script to generate convolutional neural network diagrams.
+  desc: A [Processing](https://processing.org/) script to generate convolutional neural network diagrams.
 
 - name: Copyd
   gh_user: PabloVD
@@ -38,12 +44,6 @@
   img: ../images/soneirapeebles.png
   desc: Generate pictures of fractal universes for different models of hierarchical clustering of galaxies.
 
-- name: MapGenerator
-  gh_user: PabloVD
-  repo: MapGenerator
-  img: ../images/map.png
-  desc: Generate random geographical maps of archipielagos from gaussian fields, Perlin noise or other techniques.
-
 - name: WaveEq
   gh_user: PabloVD
   repo: WaveEq
@@ -54,7 +54,7 @@
   gh_user: PabloVD
   repo: GameOfLife
   img: ../images/GameOfLife.png
-  desc: Implementation of Conway's Game of Life using Python and Pygame.
+  desc: Implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) using Python and Pygame.
 
 - name: ElementaryCellularAutomata
   gh_user: PabloVD

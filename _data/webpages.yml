@@ -1,0 +1,39 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+- name: AeroSim App
+  gh_user: aerosim-open
+  repo: https://github.com/aerosim-open/aerosim-app
+  img: ../images/aerosim_app.jpg
+  desc: Desktop application built with Electron, React and Typescript with a graphical user interface for controlling the flight simulation framework [AeroSim](https://github.com/aerosim-open/aerosim).
+
+- name: GameHub
+  gh_user: PabloVD
+  repo: https://game-hub-chi-bay.vercel.app/
+  img: ../images/gamehub.png
+  desc: React+Typescript webpage fetching game data, imitating [Rawg](https://rawg.io/).
+
+- name: BandGraph
+  gh_user: PabloVD
+  repo: https://pablovd.github.io/misc/bandgraph.html
+  img: ../images/musicgraph.png
+  desc: Visualize the relations between different musical bands and musicians within a musical scene, using [Networkx](https://networkx.org/) and [ipysigma](https://github.com/medialab/ipysigma). Source code [here](https://github.com/PabloVD/BandGraph).
+
+- name: StravaAnalysis
+  gh_user: PabloVD
+  repo: https://pablovd.github.io/misc/strava.html
+  img: ../images/stravaexample.png
+  desc: A summary of my own activity biking, hiking and running registered in [Strava](https://www.strava.com/), scrapped through the [Strava API](https://developers.strava.com/) and visualized with [Folium](https://python-visualization.github.io/folium/latest/) and [Plotly](https://plotly.com/). Source code [here](https://github.com/PabloVD/StravaAnalysis).
+
+- name: GalaxIAInsights
+  gh_user: PabloVD
+  repo: https://galaxiainsights.github.io/
+  img: ../images/galaxiainsights.png
+  desc: Website for a machine learning company project, rendered using [Jekyll](https://jekyllrb.com/).
+
+- name: PabloVD
+  gh_user: PabloVD
+  repo: https://pablovd.github.io/
+  img: ../images/myweb.png
+  desc: My own webpage you are seeing, rendered using [Jekyll](https://jekyllrb.com/).

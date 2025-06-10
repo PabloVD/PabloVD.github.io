@@ -1,0 +1,27 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+- name: InvertedAI CARLA Demo
+  gh_user: PabloVD
+  repo: InvertedAI_CARLA_demo
+  img: ../images/invertedai.png
+  desc: Integration of the data-driven realistic traffic generation [InvertedAI](https://www.inverted.ai/home) API in the autonomous driving [CARLA simulator](https://carla.org/).
+
+- name: SCM Unet
+  gh_user: PabloVD
+  repo: SCM_Unet
+  img: ../images/scm_unet.png
+  desc: Deep learning model to account for vehicle-terrain interaction and replace terramechanics computations in [Chrono simulator](https://projectchrono.org/).
+  
+- name: SemanticSegmentationCARLA
+  gh_user: PabloVD
+  repo: SemanticSegmentationCARLA
+  img: ../images/carla_sem_seg.png
+  desc: Pytorch model to learn semantic segmentation of driving images generated with the [CARLA simulator](https://carla.org/).
+  
+- name: FisheyeCubemap
+  gh_user: PabloVD
+  repo: FisheyeCubemap
+  img: ../images/Equidistant_blended.png
+  desc: Generate wide lens fisheye camera images from cubemap renders.

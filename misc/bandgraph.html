@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Graph</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            margin: 0;
+            padding: 15px;
+            background-color: #f4f4f4;
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+        }
+        select {
+            display: block;
+            margin: 10px auto;
+            padding: 5px;
+            font-size: 16px;
+            background-color: #fff;
+            border: 2px solid #616161;
+            border-radius: 5px;
+            width: 33%;
+            text-align: center;
+            color: #616161;
+            cursor: pointer;
+        }
+        select:focus {
+            outline: none;
+            border-color: #000000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .text {
+            margin: 10 auto;
+            padding: 20px;
+            background-color: rgb(255, 255, 255);
+            font-size: 16px;
+        }
+        .iframe-container {
+            flex-grow: 1; /* This makes the iframe container fill the remaining space */
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        /* For screens smaller than 768px (tablets and phones) */
+        @media (max-width: 768px) {
+            .text {
+                padding: 15px;
+                font-size: 14px;
+                max-width: 90%; /* Reduce max width on smaller screens */
+            }
+
+            select {
+                width: 100%; /* Make the dropdown full-width on small screens */
+                font-size: 14px;
+            }
+
+            .iframe-container {
+                height: 400px; /* Adjust iframe height for mobile */
+            }
+        }
+
+        /* For screens smaller than 480px (small phones) */
+        @media (max-width: 480px) {
+            .text {
+                padding: 10px;
+                font-size: 12px;
+            }
+
+            select {
+                width: 100%;
+                font-size: 12px;
+            }
+
+            .iframe-container {
+                height: 300px; /* Smaller iframe height for small phones */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>BandGraph</h1>
+
+    <div class="text">
+        Visualize the connections between different bands, artists and musicians within a music scene, selected from the drop down menu below:
+    </div>
+
+    <select id="pageSelect">
+        <option value="british_heavy_metal">British Heavy Metal</option>
+        <option value="british_progressive_rock">British Progressive Rock</option>
+        <option value="catalan_extreme_metal">Catalan Extreme Metal</option>
+        <option value="extremoduro">Extremoduro and related artists</option>
+        <option selected="selected" value="jazz">Jazz</option>
+        <option value="neofolk">Neofolk</option>
+        <option value="norwegian_black_metal">Norwegian black metal</option>
+        <option value="rock_radical_vasco">Rock radical vasco</option>
+        <option value="spanish_heavy_metal">Spanish Heavy Metal</option>
+        <option value="spanish_rap">Spanish Rap</option>
+        <option value="valencian">Valencian music scene</option>
+    </select>
+
+    <div class="text">
+    Purple nodes correspond to bands/artists, orange nodes to musicians, orange lines indicate member of band and purple lines indicate collaborations.
+    <br><br>
+    Data has been manually extracted from <a href=https://wikipedia.org>Wikipedia</a>, <a href=https://discogs.com>Discogs</a>, <a href=https://rym.fm>Rate your music</a> and other sources. Data is incomplete and can present inconsistencies, this is a work in progress.
+    <br><br>
+    The graph is created with <a href=https://networkx.org>networkx</a> and rendered with <a href=https://github.com/medialab/ipysigma>ipysigma</a>. You can find the github repository with the source code <a href="https://github.com/PabloVD/BandGraph.git">here</a>.
+    <br><br>
+    If you want to include new data or have comments or suggestions, feel free to create a pull request or contact me at <a href="mailto:pablo.villanueva.domingo@gmail.com">pablo.villanueva.domingo@gmail.com</a>. 
+    </div>
+
+    <div class="iframe-container">
+        <iframe id="contentFrame" src="bandgraph_pages/jazz.html" title="Content Frame"></iframe>
+    </div>
+
+    <script>
+        const iframe = document.getElementById('contentFrame');
+        const select = document.getElementById('pageSelect');
+
+        // Function to get URL parameters
+        function getUrlParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Get the page parameter from the URL
+        const page = getUrlParameter('page') || 'jazz'; // Default to 'html1.html'
+
+        // Set the dropdown value and iframe source
+        select.value = page;
+        iframe.src = 'bandgraph_pages/'+page+'.html';
+
+        // Update iframe source when the dropdown value changes
+        select.addEventListener('change', function() {
+            const selectedPage = this.value;
+            iframe.src = "bandgraph_pages/"+selectedPage+".html";
+
+            // Update the URL without reloading the page
+            const newUrl = `${window.location.pathname}?page=${selectedPage}`;
+            window.history.replaceState(null, '', newUrl);
+        });
+
+        // Check if the page exists in the dropdown options
+        const optionExists = Array.from(select.options).some(option => option.value === page);
+
+        // If the page parameter doesn't match an option, reset to the default
+        if (!optionExists) {
+            select.value = 'jazz';
+            iframe.src = 'bandgraph_pages/jazz.html';
+        }
+    </script>
+    
+</body>
+</html>

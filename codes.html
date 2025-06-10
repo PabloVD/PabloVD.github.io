@@ -58,9 +58,97 @@ Projects applying deep learning techniques to cosmology.
 
 <br>
 
-<h2> Learning Machine Learning </h2>
+<h2> Autonomous Driving </h2>
 
-Some simple codes and tutorials to learn different machine learning aspects and provide fun applications.
+Projects on autonomous driving, related to my research work in the <a href="https://carla.org/">CARLA simulator</a>.
+
+<br>
+
+<br />
+<br />
+
+  <ul class="timeline">
+
+    {% for project in site.data.ad %}
+
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
+          </div>
+          <div class="timeline-body">
+            {{ project.desc | markdownify }}
+            <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+                <!--
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers">
+              <div style="height: 10px;"></div>
+              -->
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    <!--
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+      </div>
+    </li> -->
+  </ul>
+
+<br>
+
+<h2> Natural Language Processing </h2>
+
+Natural Language Processing projects querying Large Language Models (LLMs) or using recurrent networks.
+
+<br>
+
+<br />
+<br />
+
+  <ul class="timeline">
+
+    {% for project in site.data.nlp %}
+
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a href="{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
+          </div>
+          <div class="timeline-body">
+            {{ project.desc | markdownify }}
+            <div user="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+                <!--
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers">
+              <div style="height: 10px;"></div>
+              -->
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    <!--
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+      </div>
+    </li> -->
+  </ul>
+
+<br>
+
+<h2> Machine Learning Bits </h2>
+
+Simple machine learning projects to learn different ML aspects and provide fun applications.
 
 <br>
 
@@ -104,7 +192,7 @@ Some simple codes and tutorials to learn different machine learning aspects and 
 
 <h2> Cosmology </h2>
 
-Codes developed for my research in cosmology.
+Non-AI codes developed for my research in cosmology.
 
 <br>
 
@@ -146,9 +234,97 @@ Codes developed for my research in cosmology.
 
 <br>
 
+<h2> Web Development </h2>
+
+Websites and web applications I have created and maintained.
+
+<br>
+
+<br />
+<br />
+
+  <ul class="timeline">
+
+    {% for project in site.data.webpages %}
+
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a href="{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
+          </div>
+          <div class="timeline-body">
+            {{ project.desc | markdownify }}
+            <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+                <!--
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers">
+              <div style="height: 10px;"></div>
+              -->
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    <!--
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+      </div>
+    </li> -->
+  </ul>
+
+<br>
+
+<h2> Game Development </h2>
+
+Projects I made for learning game development. All my games are in my <a href="https://ergodicefimov.itch.io/" target="_blank">itch.io</a> page.
+
+<br>
+
+<br />
+<br />
+
+  <ul class="timeline">
+
+    {% for project in site.data.games %}
+
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a href="{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
+          </div>
+          <div class="timeline-body">
+            {{ project.desc | markdownify }}
+            <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+                <!--
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers">
+              <div style="height: 10px;"></div>
+              -->
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    <!--
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+      </div>
+    </li> -->
+  </ul>
+
+<br>
+
 <h2> Miscelanea </h2>
 
-Some projects I made for learning programing and for fun.
+Other projects I made for different applications, learning programing and for fun.
 
 <br>
 

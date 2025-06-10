@@ -1,0 +1,27 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+- name: The Forest
+  gh_user: PabloVD
+  repo: https://ergodicefimov.itch.io/the-forest
+  img: ../images/theforest.png
+  desc: Short atmospheric horror game developed in two weeks for the [Secret Santa 2024 Jam](https://itch.io/jam/secret-santa-2024) in [Godot](https://godotengine.org/).
+
+- name: N.O.T.H.I.N.G. can go wrong
+  gh_user: PabloVD
+  repo: https://ergodicefimov.itch.io/nothing-can-go-wrong
+  img: ../images/nothing_can_go_wrong.png
+  desc: Platformer game developed in 5 days for the [Brackeys Game Jam 2025.1](https://itch.io/jam/brackeys-13) in [Godot](https://godotengine.org/).
+
+- name: MetroidPy
+  gh_user: PabloVD
+  repo: https://github.com/PabloVD/MetroidPy
+  img: ../images/Metroid_mini.png
+  desc: Videogame based on the classic Metroid programmed in [Pygame](https://www.pygame.org/).
+
+- name: GodotFPS
+  gh_user: PabloVD
+  repo: https://github.com/PabloVD/GodotFPS
+  img: ../images/godotfps.png
+  desc: Simple first-person shooter developed in [Godot](https://godotengine.org/).

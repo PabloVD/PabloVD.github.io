@@ -4,17 +4,17 @@
 
 
 
+- name: HAYASHI
+  gh_user: PabloVD
+  repo: HAYASHI
+  img: ../images/hayashi_img.png
+  desc: Python library to compute 21 cm forest observables, including subhalo contributions and non-standard cosmologies. More details in the paper [2209.01305](https://arxiv.org/abs/2209.01305). Read the documentation [here](https://hayashi.readthedocs.io/en/latest/) and install with `pip install hayashi`.
+
 - name: nuHawkHunter
   gh_user: vmmunoza
   repo: nuHawkHunter
   img: ../images/pbhneutrinos.png
   desc: Code to study bounds on the primordial black holes abundance with neutrino fluxes from emitted Hawking evaporation. More details in the paper [2203.14979](https://arxiv.org/abs/2203.14979).
-
-- name: HAYASHI
-  gh_user: PabloVD
-  repo: HAYASHI
-  img: ../images/hayashi_img.png
-  desc: Python library to compute 21 cm forest observables, including subhalo contributions and non-standard cosmologies. More details in the paper [2209.01305](https://arxiv.org/abs/2209.01305).
 
 - name: 21cmBounds
   gh_user: PabloVD

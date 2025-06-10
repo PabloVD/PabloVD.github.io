@@ -1,0 +1,23 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+- name: CAMELSDocBot
+  gh_user: PabloVD
+  repo: https://huggingface.co/spaces/PabloVD/CAMELSDocBot
+  img: ../images/camelsdocbot.jpg
+  desc: Virtual assistant with a retrieval-augmented generation (RAG) system to query information and ask questions about the [CAMELS simulations](https://camels.readthedocs.io/en/latest/), using [Langchain](https://www.langchain.com/) with a [MistralAI](https://mistral.ai/) LLM and deployed with [Gradio](https://www.gradio.app/).
+  
+- name: MedievalChatbot
+  gh_user: PabloVD
+  repo: https://huggingface.co/spaces/PabloVD/MedievalChatbot
+  img: ../images/medievalchatbot.png
+  desc: A [MistralAI](https://mistral.ai/) powered chatbot which talks in the way of ancient times, using [Langchain](https://www.langchain.com/) and deployed with [Gradio](https://www.gradio.app/).
+
+- name: PoemGenerator
+  gh_user: PabloVD
+  repo: https://github.com/PabloVD/PoemGenerator
+  img: ../images/lope.png
+  desc: Train a recurrent neural network (LSTM) with PyTorch to generate poems imitating the style of an author.
+  
+ 

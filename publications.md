@@ -93,19 +93,13 @@ See [here](https://arxiv.org/abs/2112.08201) my PhD thesis **Shedding light on D
 
 Here are some other miscelaneous short articles and notes I wrote on cosmology, ML, physics, math and more.
 
+## Cosmology & Astrophysics
+
 - [Why Dark Matter matters: a brief historical overview of Dark Matter](articles/WhyDMMatters.pdf)
-
-- [Summary of non-inertial dynamics](articles/Non_inertial_dynamics.pdf)
-
-- [A sketch of momentum conserving Graph Neural Networks](articles/Momentum_conserved_GNN.pdf)
 
 - [Derivation of black hole accretion equations in the expanding universe](articles/AccretionEquations.pdf)
 
 - [Discussion of different disk accretion analytical models](articles/AccretionModels.pdf)
-
-- [Summary of key concepts on camera calibration theory](articles/Camera_Theory.pdf)
-
-- [Summary of the SCM terramechanics equations](articles/SCM_Equations.pdf)
 
 - [Estimation of energy released by cosmic rays from supernova remnants](articles/CR.pdf)
 
@@ -113,11 +107,23 @@ Here are some other miscelaneous short articles and notes I wrote on cosmology, 
 
 - [Baryonic acoustic oscillations analysis with wavelets (in Spanish)](https://nbviewer.org/github/PabloVD/BAOlets/blob/master/Baolets.pdf)
 
+## Physics and more
+
+- [Summary of non-inertial dynamics](articles/Non_inertial_dynamics.pdf)
+
+- [A sketch of momentum conserving Graph Neural Networks](articles/Momentum_conserved_GNN.pdf)
+
+- [Summary of key concepts on camera calibration theory](articles/Camera_Theory.pdf)
+
+- [Summary of the SCM terramechanics equations](articles/SCM_Equations.pdf)
+
 - [Numeric solution of the 1+1 dimensional wave equation with Fortran (in Spanish)](https://nbviewer.org/github/PabloVD/WaveEq/blob/master/Notes.pdf)
 
-- [A solution of a probabilistic problem of random integers](articles/RandomIntegers.pdf)
-
 - [An attempt to design a simple dynamic economic model](articles/EconomicModels.pdf)
+
+## Math problems
+
+- [A solution of a probabilistic problem of random integers](articles/RandomIntegers.pdf)
 
 - [A math chess problem: the two queens problem (in Spanish)](articles/Escacs.pdf)
 

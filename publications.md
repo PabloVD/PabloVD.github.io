@@ -95,21 +95,21 @@ Here are some other miscelaneous short articles and notes I wrote on cosmology, 
 
 - [Why Dark Matter matters: a brief historical overview of Dark Matter](articles/WhyDMMatters.pdf)
 
-- [A sketch of momentum conserving Graph Neural Networks](articles/Momentum_conserved_GNN.pdf)
-
 - [Summary of non-inertial dynamics](articles/Non_inertial_dynamics.pdf)
 
-- [A derivation of black hole accretion equations in the expanding universe](articles/AccretionEquations.pdf)
+- [A sketch of momentum conserving Graph Neural Networks](articles/Momentum_conserved_GNN.pdf)
 
-- [A discussion of different disk accretion analytical models](articles/AccretionModels.pdf)
+- [Derivation of black hole accretion equations in the expanding universe](articles/AccretionEquations.pdf)
 
-- [A summary of key concepts on camera calibration theory](articles/Camera_Theory.pdf)
+- [Discussion of different disk accretion analytical models](articles/AccretionModels.pdf)
 
-- [A summary of the SCM terramechanics equations](articles/SCM_Equations.pdf)
+- [Summary of key concepts on camera calibration theory](articles/Camera_Theory.pdf)
 
-- [An estimation of energy released by cosmic rays from supernova remnants](articles/CR.pdf)
+- [Summary of the SCM terramechanics equations](articles/SCM_Equations.pdf)
 
-- [A discussion on the cosmic variance from the log normal density distribution](articles/VarianceNotes.pdf)
+- [Estimation of energy released by cosmic rays from supernova remnants](articles/CR.pdf)
+
+- [Discussion on the cosmic variance from the log normal density distribution](articles/VarianceNotes.pdf)
 
 - [Baryonic acoustic oscillations analysis with wavelets (in Spanish)](https://nbviewer.org/github/PabloVD/BAOlets/blob/master/Baolets.pdf)
 
@@ -122,3 +122,4 @@ Here are some other miscelaneous short articles and notes I wrote on cosmology, 
 - [A math chess problem: the two queens problem (in Spanish)](articles/Escacs.pdf)
 
 - [A mathematical approach to palyndromes (in Spanish)](articles/Palindromos.pdf)
+

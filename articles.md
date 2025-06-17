@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Publications
+title: Articles
 description: Scientific articles
-permalink: /publications/
+permalink: /articles/
 ---
+
+## Publications
 
 These are my scientific publications.
 You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.net/authors/1615007?ui-citation-summary=true), [arXiv](https://arxiv.org/a/villanuevadomingo_p_1.html) and [Google Scholar](https://scholar.google.com/citations?user=NbQJPXQAAAAJ&hl=ca) profiles.
@@ -89,11 +91,15 @@ You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.n
   **Warm dark matter and the ionization history of the Universe**\
   [Phys. Rev., D96(10):103539, 2017](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.103539), [arXiv:1703.02302](https://arxiv.org/abs/1703.02302)
 
+## PhD Thesis
+
 See [here](https://arxiv.org/abs/2112.08201) my PhD thesis **Shedding light on Dark Matter through 21 cm Cosmology and Reionization constraints**.
+
+## Other articles
 
 Here are some other miscelaneous short articles and notes I wrote on cosmology, ML, physics, math and more.
 
-## Cosmology & Astrophysics
+### Cosmology & Astrophysics
 
 - [Why Dark Matter matters: a brief historical overview of Dark Matter](articles/WhyDMMatters.pdf)
 
@@ -107,7 +113,7 @@ Here are some other miscelaneous short articles and notes I wrote on cosmology, 
 
 - [Baryonic acoustic oscillations analysis with wavelets (in Spanish)](https://nbviewer.org/github/PabloVD/BAOlets/blob/master/Baolets.pdf)
 
-## Physics and more
+### Physics and more
 
 - [Summary of non-inertial dynamics](articles/Non_inertial_dynamics.pdf)
 
@@ -121,7 +127,7 @@ Here are some other miscelaneous short articles and notes I wrote on cosmology, 
 
 - [An attempt to design a simple dynamic economic model](articles/EconomicModels.pdf)
 
-## Math problems
+### Math problems
 
 - [A solution of a probabilistic problem of random integers](articles/RandomIntegers.pdf)
 

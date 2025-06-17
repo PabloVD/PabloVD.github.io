@@ -95,7 +95,7 @@ You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.n
 
 See [here](https://arxiv.org/abs/2112.08201) my PhD thesis **Shedding light on Dark Matter through 21 cm Cosmology and Reionization constraints**.
 
-## Other articles
+## Notes
 
 Here are some other miscelaneous short articles and notes I wrote on cosmology, ML, physics, math and more.
 

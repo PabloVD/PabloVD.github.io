@@ -10,6 +10,10 @@ permalink: /articles/
 These are my scientific publications.
 You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.net/authors/1615007?ui-citation-summary=true), [arXiv](https://arxiv.org/a/villanuevadomingo_p_1.html) and [Google Scholar](https://scholar.google.com/citations?user=NbQJPXQAAAAJ&hl=ca) profiles.
 
+- Licong Xu, Milind Sarkar, Anto I. Lonappan, Íñigo Zubeldia, Pablo Villanueva-Domingo, Santiago Casas, Christian Fidler, Chetana Amancharla, Ujjwal Tiwari, Adrian Bayer, Chadi Ait Ekioui, Miles Cranmer et al.\
+  **Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery**\
+  [arXiv:2507.07257](https://arxiv.org/abs/2507.07257)
+
 - Helen Shao, Francisco Villaescusa-Navarro, Pablo Villanueva-Domingo, Romain Teyssier, Lehman H. Garrison, Marco Gatti, Derek Inman, Yueying Ni, Ulrich P. Steinwandel, Mihir Kulkarni, Eli Visbal et al.\
   **Robust field-level inference with dark matter halos**\
   [arXiv:2209.06843](https://arxiv.org/abs/2209.06843)

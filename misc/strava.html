@@ -83,15 +83,26 @@
             border: none;
         }
 
-        .block {
-            width: 100%;
-        }
-
         .distance-elevation-container {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-            /* Add this for better wrapping */
+            gap: 20px;
+            /* space between blocks */
+        }
+
+        .block {
+            flex: 1 1 45%;
+            /* grow/shrink but try to keep ~45% width */
+            min-width: 300px;
+            /* prevents overlapping on small screens */
+            box-sizing: border-box;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
         }
 
         /* For screens smaller than 768px (tablets and phones) */
@@ -109,6 +120,8 @@
             .block {
                 width: 100%;
                 margin-bottom: 20px;
+                min-width: auto;
+                /* allow shrinking to full width */
                 /* Add space between stacked blocks */
             }
 
@@ -162,7 +175,7 @@
 
     <h2>Activity routes</h2>
     <div class="map-container">
-        <iframe id="contentFrame" src="strava_pages/route_map.html" title="Content Frame"></iframe>
+        <iframe class="content-frame" src="strava_pages/route_map.html" title="Content Frame"></iframe>
     </div>
 
     <div class="distance-elevation-container">
@@ -173,7 +186,7 @@
                 Routes' distance as a function of date
             </div>
             <div class="iframe-container">
-                <iframe id="contentFrame" src="strava_pages/date_vs_distance.html" title="Content Frame"></iframe>
+                <iframe class="content-frame" src="strava_pages/date_vs_distance.html" title="Content Frame"></iframe>
             </div>
         </div>
 
@@ -183,7 +196,7 @@
                 Routes' total elevation gain (accumulated elevation) as a function of date
             </div>
             <div class="iframe-container">
-                <iframe id="contentFrame" src="strava_pages/date_vs_elevation.html" title="Content Frame"></iframe>
+                <iframe class="content-frame" src="strava_pages/date_vs_elevation.html" title="Content Frame"></iframe>
             </div>
         </div>
 
@@ -198,7 +211,7 @@
             </div>
 
             <div class="iframe-container">
-                <iframe id="contentFrame" src="strava_pages/eddington.html" title="Content Frame"></iframe>
+                <iframe class="content-frame" src="strava_pages/eddington.html" title="Content Frame"></iframe>
             </div>
         </div>
 
@@ -208,7 +221,7 @@
                 Fitnes and freshness models
             </div>
             <div class="iframe-container">
-                <iframe id="contentFrame" src="strava_pages/fitness.html" title="Content Frame"></iframe>
+                <iframe class="content-frame" src="strava_pages/fitness.html" title="Content Frame"></iframe>
             </div>
         </div>
 
@@ -217,7 +230,7 @@
 
     <!-- <h2>Fitness & Freshness</h2> -->
     <!-- <div class="iframe-container">
-        <iframe id="contentFrame" src="strava_pages/fitness.html" title="Content Frame"></iframe>
+        <iframe class="content-frame" src="strava_pages/fitness.html" title="Content Frame"></iframe>
     </div> -->
 
 </body>

@@ -1,12 +1,12 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
- 
-- name: HeightMapGenerator
+
+- name: abyz
   gh_user: PabloVD
-  repo: HeightMapGenerator
-  img: ../images/heightmap.png
-  desc: Python script to generate a height map from a given power spectrum.
+  repo: abyz
+  img: ../images/mandelbrot.png
+  desc: Joke programming language which only employs alphabetical characters.
 
 - name: NeuralCellularAutomata
   gh_user: PabloVD
@@ -19,6 +19,12 @@
   repo: MapGenerator
   img: ../images/map.png
   desc: Generate procedural geographical maps from gaussian fields, Perlin noise or other random fields. Try an interactive demo [here](https://huggingface.co/spaces/PabloVD/MapGenerator).
+
+- name: HeightMapGenerator
+  gh_user: PabloVD
+  repo: HeightMapGenerator
+  img: ../images/heightmap.png
+  desc: Python script to generate a height map from a given power spectrum.
 
 - name: CollabGraphINSPIRE
   gh_user: PabloVD

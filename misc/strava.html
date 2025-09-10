@@ -72,15 +72,31 @@
         }
 
         .map-container {
-            flex-grow: 0.5;
-            /* This makes the iframe container fill the remaining space */
-            height: 1000px;
+            flex: 1 1 100%;
+            min-height: 500px;
+            /* desktop */
+            margin: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .map-container {
+                min-height: 300px;
+                /* tablet */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .map-container {
+                min-height: 200px;
+                /* phone */
+            }
         }
 
         iframe {
             width: 100%;
-            height: 500px;
+            height: 100%;
             border: none;
+            display: block;
         }
 
         .distance-elevation-container {

@@ -173,6 +173,19 @@
                 height: 180px;
             }
         }
+
+        /* Force single column layout in mobile landscape */
+        @media screen and (max-width: 1024px) and (orientation: landscape) {
+            .distance-elevation-container {
+                flex-direction: column;
+            }
+
+            .block {
+                width: 100%;
+                min-width: auto;
+                margin-bottom: 20px;
+            }
+        }
     </style>
 </head>
 
@@ -223,7 +236,7 @@
         <div class="block">
             <h2>Distance vs Elevation</h2>
             <div class="text">
-                Distance vs Elevation.
+                Distance vs Elevation
             </div>
 
             <div class="iframe-container">

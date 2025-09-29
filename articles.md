@@ -145,6 +145,8 @@ Here are some other miscelaneous short articles and notes I wrote on cosmology, 
 
 - [Summary of non-inertial dynamics](articles/Non_inertial_dynamics.pdf)
 
+- [Simple vehicle dynamics model](articles/Vehicle_Dynamics_Modeling.pdf)
+
 - [A sketch of momentum conserving Graph Neural Networks](articles/Momentum_conserved_GNN.pdf)
 
 - [Summary of key concepts on camera calibration theory](articles/Camera_Theory.pdf)

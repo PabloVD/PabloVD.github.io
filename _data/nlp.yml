@@ -6,7 +6,7 @@
   gh_user: AstroPilot-AI
   repo: https://github.com/AstroPilot-AI/Denario
   img: ../images/denario.png
-  desc: Modular multiagent system designed to automatize scientific research, developed in collaboration with [Paco Villaescusa](https://franciscovillaescusa.github.io/) and [Boris Bolliet](https://www.phy.cam.ac.uk/profile/dr-boris-bolliet/).
+  desc: Modular multiagent system designed as an AI assistant for scientific research, developed in collaboration with [Paco Villaescusa](https://franciscovillaescusa.github.io/) and [Boris Bolliet](https://www.phy.cam.ac.uk/profile/dr-boris-bolliet/).
 
 - name: CAMELSDocBot
   gh_user: PabloVD

@@ -10,6 +10,10 @@ permalink: /articles/
 These are my scientific publications.
 You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.net/authors/1615007?ui-citation-summary=true), [arXiv](https://arxiv.org/a/villanuevadomingo_p_1.html) and [Google Scholar](https://scholar.google.com/citations?user=NbQJPXQAAAAJ&hl=ca) profiles.
 
+- Francisco Villaescusa-Navarro, Boris Bolliet, Pablo Villanueva-Domingo, Adrian E. Bayer, Aidan Acquah, Chetana Amancharla, Almog Barzilay-Siegal, Pablo Bermejo, Camille Bilodeau, Pablo Cárdenas Ramírez, Miles Cranmer et al.\
+  **The Denario project: Deep knowledge AI agents for scientific discovery**\
+  [arXiv:2510.26887](https://arxiv.org/abs/2510.26887)
+
 - Licong Xu, Milind Sarkar, Anto I. Lonappan, Íñigo Zubeldia, Pablo Villanueva-Domingo, Santiago Casas, Christian Fidler, Chetana Amancharla, Ujjwal Tiwari, Adrian Bayer, Chadi Ait Ekioui, Miles Cranmer et al.\
   **Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery**\
   [arXiv:2507.07257](https://arxiv.org/abs/2507.07257)

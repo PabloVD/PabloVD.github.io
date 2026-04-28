@@ -20,6 +20,12 @@
   img: ../images/carla_sem_seg.png
   desc: Pytorch model to learn semantic segmentation of driving images generated with the [CARLA simulator](https://carla.org/).
 
+- name: SatelliteSegmentation
+  gh_user: PabloVD
+  repo: SatelliteSegmentation
+  img: ../images/satellite_segmentation.png
+  desc: Tools for segmenting different elements such as trees, roads and lane markers from satellite images.
+
 - name: FisheyeCubemap
   gh_user: PabloVD
   repo: FisheyeCubemap

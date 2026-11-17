@@ -2,17 +2,17 @@
 # `data` is the name of the file in _data/ holding the projects of the section.
 # `desc` is rendered as markdown.
 
-- title: Deep Learning in Cosmology
-  data: dlcosmo
-  desc: Projects applying deep learning techniques to cosmology.
+- title: AI Agents & LLMs
+  data: nlp
+  desc: Multi-agent systems and applications built on Large Language Models (LLMs), mostly aimed at assisting and automating scientific research.
 
 - title: Autonomous Driving
   data: ad
   desc: Projects on autonomous driving, related to my research work in the [CARLA simulator](https://carla.org/).
 
-- title: LLMs & AI Agents
-  data: nlp
-  desc: Multi-agent systems and applications built on Large Language Models (LLMs), mostly aimed at assisting and automating scientific research.
+- title: Deep Learning in Cosmology
+  data: dlcosmo
+  desc: Projects applying deep learning techniques to cosmology.
 
 - title: Reinforcement Learning
   data: rl
@@ -24,7 +24,7 @@
 
 - title: Cosmology
   data: cosmo
-  desc: Non-AI codes developed for my research in cosmology.
+  desc: Simulation and statistics codes developed for my research in cosmology.
 
 - title: Web Development
   data: webpages

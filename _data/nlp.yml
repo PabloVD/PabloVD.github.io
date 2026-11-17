@@ -6,13 +6,7 @@
   gh_user: Denario-AI
   repo: https://github.com/Denario-AI/Denario
   img: ../images/denario.png
-  desc: Modular multiagent system designed as an AI assistant for scientific research, developed in collaboration with [Paco Villaescusa](https://franciscovillaescusa.github.io/) and [Boris Bolliet](https://www.phy.cam.ac.uk/profile/dr-boris-bolliet/).
-
-- name: DenarioApp
-  gh_user: Denario-AI
-  repo: https://github.com/Denario-AI/DenarioApp
-  img: ../images/denarioapp.png
-  desc: Graphical user interface for Denario built with [Streamlit](https://streamlit.io/). Try the deployed demo in [HuggingFace Spaces](https://huggingface.co/spaces/astropilot-ai/Denario).
+  desc: Modular multiagent system designed as an AI assistant for scientific research, developed in collaboration with [Paco Villaescusa](https://franciscovillaescusa.github.io/) and [Boris Bolliet](https://www.phy.cam.ac.uk/profile/dr-boris-bolliet/). Try a deployed demo in [HuggingFace Spaces](https://huggingface.co/spaces/astropilot-ai/Denario).
 
 - name: Parallel Science
   gh_user: ParallelScience

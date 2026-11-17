@@ -20,6 +20,12 @@
   img: ../images/GraphImage.png
   desc: Compute the center of mass of a particle system using several models of Graph Neural Networks with [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/).
 
+- name: PoemGenerator
+  gh_user: PabloVD
+  repo: https://github.com/PabloVD/PoemGenerator
+  img: ../images/lope.png
+  desc: Train a recurrent neural network (LSTM) with PyTorch to generate poems imitating the style of an author.
+
 - name: HipparcosML
   gh_user: PabloVD
   repo: HipparcosML
@@ -31,9 +37,3 @@
   repo: GWClassifier
   img: ../images/regionsGW.png
   desc: Classify glitches in gravitational waves events detected by LIGO using machine learning models with sklearn.
-
-- name: PoemGenerator
-  gh_user: PabloVD
-  repo: https://github.com/PabloVD/PoemGenerator
-  img: ../images/lope.png
-  desc: Train a recurrent neural network (LSTM) with PyTorch to generate poems imitating the style of an author.

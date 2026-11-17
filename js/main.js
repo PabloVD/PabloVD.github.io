@@ -37,6 +37,16 @@ $(document).ready(function () {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
+  // When returning with the back button, the browser may restore the home page
+  // from its cache with the cover panel still collapsed (state left by the
+  // blog-button animation). Reset it so the full cover is shown again.
+  $(window).on('pageshow', function (e) {
+    if (!e.originalEvent.persisted) return
+    if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') return
+    $('.panel-cover').stop(true, true).removeClass('panel-cover--collapsed').css({'max-width': '', 'width': ''})
+    $('.content-wrapper').removeClass('showing animated slideInRight')
+  })
+
   $('.btn-mobile-menu').click(function () {
 
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown')

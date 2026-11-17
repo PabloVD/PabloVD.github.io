@@ -9,3 +9,9 @@
   repo: chessrl
   img: ../images/chessrl.png
   desc: Learn a policy to play chess with reinforcement learning.
+
+- name: LyapunovRL
+  gh_user: PabloVD
+  repo: LyapunovRL
+  img: ../images/lyapunovrl.png
+  desc: Experiments on Lyapunov-based reward shaping in reinforcement learning, where the reward is the decrease of an analytical Lyapunov function. Compares a standard PPO critic with a structured value function where only the residual f is learned.

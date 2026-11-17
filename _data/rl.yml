@@ -1,8 +1,8 @@
-- name: HumanoidRL
+- name: LyapunovRL
   gh_user: PabloVD
-  repo: HumanoidRL
-  img: ../images/humanoid.png
-  desc: Train reinforcement learning algorithms with the [Mujoco's Humanoid environment](https://gymnasium.farama.org/environments/mujoco/humanoid/) using [StableBaselines3](https://stable-baselines3.readthedocs.io/en/master/).
+  repo: LyapunovRL
+  img: ../images/lyapunovrl.png
+  desc: Experiments on Lyapunov-based reward shaping in reinforcement learning, where the reward is the decrease of an analytical Lyapunov function. Compares a standard PPO critic with a structured value function where only the residual f is learned.
 
 - name: chessrl
   gh_user: PabloVD
@@ -10,8 +10,8 @@
   img: ../images/chessrl.png
   desc: Learn a policy to play chess with reinforcement learning.
 
-- name: LyapunovRL
+- name: HumanoidRL
   gh_user: PabloVD
-  repo: LyapunovRL
-  img: ../images/lyapunovrl.png
-  desc: Experiments on Lyapunov-based reward shaping in reinforcement learning, where the reward is the decrease of an analytical Lyapunov function. Compares a standard PPO critic with a structured value function where only the residual f is learned.
+  repo: HumanoidRL
+  img: ../images/humanoid.png
+  desc: Train reinforcement learning algorithms with the [Mujoco's Humanoid environment](https://gymnasium.farama.org/environments/mujoco/humanoid/) using [StableBaselines3](https://stable-baselines3.readthedocs.io/en/master/).

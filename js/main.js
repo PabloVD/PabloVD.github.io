@@ -17,6 +17,9 @@ $(document).ready(function () {
       parent.location.hash = ''
       return;
     }
+    // On inner pages the panel is already collapsed: just follow the link,
+    // otherwise the current content slides out and back in before navigating.
+    if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed')

@@ -1,12 +1,8 @@
-# projects section data
-# If you don't have language feature(language.yml is empty), ignore "i18n" items
-# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-
 - name: Denario
   gh_user: Denario-AI
   repo: https://github.com/Denario-AI/Denario
   img: ../images/denario.png
-  desc: Modular multiagent system designed as an AI assistant for scientific research, developed in collaboration with [Paco Villaescusa](https://franciscovillaescusa.github.io/) and [Boris Bolliet](https://www.phy.cam.ac.uk/profile/dr-boris-bolliet/). Try a deployed demo in [HuggingFace Spaces](https://huggingface.co/spaces/astropilot-ai/Denario).
+  desc: Modular multiagent system designed as an AI assistant for scientific research, developed in collaboration with [Paco Villaescusa](https://franciscovillaescusa.github.io/) and [Boris Bolliet](https://www.phy.cam.ac.uk/profile/dr-boris-bolliet/). Try a deployed demo in [HuggingFace Spaces](https://huggingface.co/spaces/astropilot-ai/Denario). More details in the paper [PRX Intelligence 1, 021001 (2026)](https://doi.org/10.1103/kk55-gc95), [arXiv:2510.26887](https://arxiv.org/abs/2510.26887).
 
 - name: Parallel Science
   gh_user: ParallelScience

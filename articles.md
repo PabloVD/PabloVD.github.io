@@ -17,6 +17,7 @@ You can also take a look at my articles in my [INSPIRE-HEP](https://inspirehep.n
 
 - Francisco Villaescusa-Navarro, Boris Bolliet, **Pablo Villanueva-Domingo**, Adrian E. Bayer, Aidan Acquah, Chetana Amancharla, Almog Barzilay-Siegal, Pablo Bermejo, Camille Bilodeau, Pablo Cárdenas Ramírez, Miles Cranmer et al.\
   **The Denario project: Deep knowledge AI agents for scientific discovery**\
+  [PRX Intelligence 1, 021001 (2026)](https://doi.org/10.1103/kk55-gc95)\
   [arXiv:2510.26887](https://arxiv.org/abs/2510.26887)
 
 - Licong Xu, Milind Sarkar, Anto I. Lonappan, Íñigo Zubeldia, **Pablo Villanueva-Domingo**, Santiago Casas, Christian Fidler, Chetana Amancharla, Ujjwal Tiwari, Adrian Bayer, Chadi Ait Ekioui, Miles Cranmer et al.\

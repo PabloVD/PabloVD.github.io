@@ -1,3 +1,12 @@
+{% comment %}
+  Timeline of projects for the /codes/ page.
+  `include.projects` is a list from _data/ (see _data/code_sections.yml). Each entry has:
+    name     title shown on the card
+    gh_user  GitHub user or org owning the repo
+    repo     repo name (links to github.com/gh_user/repo) or a full URL (used as is)
+    img      thumbnail, e.g. ../images/foo.png (shown as a circle: use square images)
+    desc     description, rendered as markdown
+{% endcomment %}
 <ul class="timeline">
   {% for project in include.projects %}
     {% if project.repo contains '://' %}

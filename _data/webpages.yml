@@ -8,6 +8,18 @@
   img: ../images/aerosim_app.jpg
   desc: Desktop application built with Electron, React and Typescript with a graphical user interface for controlling the flight simulation framework [AeroSim](https://github.com/aerosim-open/aerosim).
 
+- name: Iberian Map
+  gh_user: PabloVD
+  repo: https://pablovd.github.io/iberian-map/
+  img: ../images/iberianmap.png
+  desc: Interactive map of the archaeological sites of pre-Roman Iberia (Iron Age), with information and pictures of each site. Source code [here](https://github.com/PabloVD/iberian-map).
+
+- name: JardínApp
+  gh_user: PabloVD
+  repo: https://pablovd.github.io/jardinapp/
+  img: ../images/jardinapp.png
+  desc: Progressive web app (PWA) to keep a personal catalog of plants, with photos stored in Google Drive. Source code [here](https://github.com/PabloVD/jardinapp).
+
 - name: GameHub
   gh_user: PabloVD
   repo: https://game-hub-chi-bay.vercel.app/

@@ -20,6 +20,18 @@
   img: ../images/carla_sem_seg.png
   desc: Pytorch model to learn semantic segmentation of driving images generated with the [CARLA simulator](https://carla.org/).
 
+- name: TrafficTrainer
+  gh_user: PabloVD
+  repo: TrafficTrainer
+  img: ../images/traffictrainer.png
+  desc: CNN-based model for data-driven traffic simulation, trained on the [Waymo Open Motion Dataset](https://waymo.com/open/) from rasterized road maps. Integrated as a traffic generator in the [CARLA simulator](https://carla.org/) in [MLTrafficCARLA](https://github.com/PabloVD/MLTrafficCARLA).
+
+- name: MitsubaRoads
+  gh_user: PabloVD
+  repo: MitsubaRoads
+  img: ../images/mitsubaroads.png
+  desc: Reshape roads from digital twins to match satellite images with differentiable rendering in [Mitsuba](https://www.mitsuba-renderer.org/).
+
 - name: SatelliteSegmentation
   gh_user: PabloVD
   repo: SatelliteSegmentation

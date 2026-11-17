@@ -1,0 +1,22 @@
+<ul class="timeline">
+  {% for project in include.projects %}
+    {% if project.repo contains '://' %}
+      {% assign project_url = project.repo %}
+    {% else %}
+      {% assign project_url = 'https://github.com/' | append: project.gh_user | append: '/' | append: project.repo %}
+    {% endif %}
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="{{ project.name }}">
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4><a href="{{ project_url }}" target="_blank">{{ project.name }}</a></h4>
+        </div>
+        <div class="timeline-body">
+          {{ project.desc | markdownify }}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

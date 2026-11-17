@@ -1,0 +1,11 @@
+- name: HumanoidRL
+  gh_user: PabloVD
+  repo: HumanoidRL
+  img: ../images/humanoid.png
+  desc: Train reinforcement learning algorithms with the [Mujoco's Humanoid environment](https://gymnasium.farama.org/environments/mujoco/humanoid/) using [StableBaselines3](https://stable-baselines3.readthedocs.io/en/master/).
+
+- name: chessrl
+  gh_user: PabloVD
+  repo: chessrl
+  img: ../images/chessrl.png
+  desc: Learn a policy to play chess with reinforcement learning.

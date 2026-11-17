@@ -3,10 +3,28 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
 - name: Denario
-  gh_user: AstroPilot-AI
-  repo: https://github.com/AstroPilot-AI/Denario
+  gh_user: Denario-AI
+  repo: https://github.com/Denario-AI/Denario
   img: ../images/denario.png
   desc: Modular multiagent system designed as an AI assistant for scientific research, developed in collaboration with [Paco Villaescusa](https://franciscovillaescusa.github.io/) and [Boris Bolliet](https://www.phy.cam.ac.uk/profile/dr-boris-bolliet/).
+
+- name: DenarioApp
+  gh_user: Denario-AI
+  repo: https://github.com/Denario-AI/DenarioApp
+  img: ../images/denarioapp.png
+  desc: Graphical user interface for Denario built with [Streamlit](https://streamlit.io/). Try the deployed demo in [HuggingFace Spaces](https://huggingface.co/spaces/astropilot-ai/Denario).
+
+- name: Parallel Science
+  gh_user: ParallelScience
+  repo: https://parallelscience.org/
+  img: ../images/parallelscience.png
+  desc: An experiment on scaling AI scientists, with AI-generated research papers published in [Parallel ArXiv](https://papers.parallelscience.org/) and reviewed by AI in [ParallelReview](https://reviews.parallelscience.org/). Includes a [REST API](https://github.com/ParallelScience/ParallelScienceAPI) to access papers and reviews.
+
+- name: denario-scientists
+  gh_user: ParallelScience
+  repo: https://github.com/ParallelScience/denario-scientists
+  img: ../images/denarioscientists.png
+  desc: Multi-container Denario research scientists running on OpenClaw, autonomously producing the papers published in [Parallel ArXiv](https://papers.parallelscience.org/).
 
 - name: CAMELSDocBot
   gh_user: PabloVD
@@ -19,9 +37,3 @@
   repo: https://huggingface.co/spaces/PabloVD/MedievalChatbot
   img: ../images/medievalchatbot.png
   desc: A [MistralAI](https://mistral.ai/) powered chatbot which talks in the way of ancient times, using [Langchain](https://www.langchain.com/) and deployed with [Gradio](https://www.gradio.app/).
-
-- name: PoemGenerator
-  gh_user: PabloVD
-  repo: https://github.com/PabloVD/PoemGenerator
-  img: ../images/lope.png
-  desc: Train a recurrent neural network (LSTM) with PyTorch to generate poems imitating the style of an author.

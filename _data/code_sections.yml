@@ -14,6 +14,10 @@
   data: dlcosmo
   desc: Projects applying deep learning techniques to cosmology.
 
+- title: Web & App Development
+  data: webpages
+  desc: Websites and applications I have created and maintained.
+
 - title: Reinforcement Learning
   data: rl
   desc: Projects training agents with reinforcement learning.
@@ -25,10 +29,6 @@
 - title: Cosmology
   data: cosmo
   desc: Simulation and statistics codes developed for my research in cosmology.
-
-- title: Web Development
-  data: webpages
-  desc: Websites and web applications I have created and maintained.
 
 - title: Game Development
   data: games

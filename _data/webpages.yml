@@ -4,6 +4,12 @@
   img: ../images/aerosim_app.jpg
   desc: Desktop application built with Electron, React and Typescript with a graphical user interface for controlling the flight simulation framework [AeroSim](https://github.com/aerosim-open/aerosim).
 
+- name: ValentiAtlas
+  gh_user: PabloVD
+  repo: https://valentiatlas.pablovd.workers.dev
+  img: ../images/valentiatlas.png
+  desc: Interactive map of the construction year of every building in València and l'Horta, with historical maps and orthophotos. Data from the [Catastro](https://www.catastro.hacienda.gob.es/) INSPIRE, built with [MapLibre GL JS](https://maplibre.org/).
+
 - name: Iberian Map
   gh_user: PabloVD
   repo: https://pablovd.github.io/iberian-map/
